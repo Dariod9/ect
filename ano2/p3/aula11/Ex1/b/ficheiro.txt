@@ -1,0 +1,4 @@
+Ola
+O meu nome é string
+tenho varias string neste ficheiro. Ola
+String ficheiro diz ola

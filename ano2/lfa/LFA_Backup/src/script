@@ -1,0 +1,5 @@
+#!/bin/bash
+clear
+cd Gramatica/
+antlr4-clean
+antlr4 -visitor tableGram.g4

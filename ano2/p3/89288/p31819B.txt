@@ -1,0 +1,22 @@
+
+Alínea 1) ----------------------------------
+
+Participante [email=bmarq87756@sapinho.pt , nome=Belinda Marques]
+Participante [email=pedro@coldmail.com , nome=Pedro Silva]
+Participante [email=bm1880@sapinho.pt , nome=Anabela Lima]
+
+Responsável: Participante [email=jmartin27@kmail.pt , nome=Joaquim Martins]
+Participante [email=jmartin27@kmail.pt , nome=Joaquim Martins]
+Participante [email=lopesmar@mymail.com , nome=Maria Lopes]
+
+Feira Indústria 5.0 - Total de Expositores: 5; Total de Visitantes: 5
+Emails dos responsáveis: admin@coldmail.com,bmarq87756@sapinho.pt,chef86@cookmail.pt,jmartin27@kmail.pt,depois@uantes.pt
+[Stand Servicos[codigo=501, nome=Paparoca, resp=Participante [email=chef86@cookmail.pt , nome=Ana Nunes]]
+
+Alínea 2) ----------------------------------
+
+Feira Turismo 2019 - Total de Expositores: 4; Total de Visitantes: 4
+Stand Empresa[codigo=102, nome=EspiritoDoBem, resp=Participante [email=j3223@uax.es , nome=Paulo Paula]
+Stand Empresa[codigo=101, nome=Sul Glacial, resp=Participante [email=v231@uax.com , nome=Maria Matos]
+Stand Empresa[codigo=100, nome=Norte Tropical, resp=Participante [email=abc@uax.pt , nome=Luis Pires]
+Stand Organizacao[codigo=001, nome=Central, resp=Participante [email=admin@uax.pt , nome=Chico Bocas]

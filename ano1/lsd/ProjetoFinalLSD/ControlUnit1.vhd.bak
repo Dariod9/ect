@@ -1,0 +1,102 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.NUMERIC_STD.all;
+
+entity ControlUnit1 is
+		port(	clk		:	in		std_logic;
+				enable	:	in		std_logic;
+				reset		:	in		std_logic; -- METER DEBOUNCER
+				trig		:	in		std_logic;
+				snd		:	in		std_logic;
+				S2			:	out	std_logic;
+				S1			:	out	std_logic;
+				S0			:	out	std_logic);
+end ControlUnit1;
+
+architecture Behavioral of ControlUnit1 is
+
+	type state is (TurnedOff, TurnedOn , OnNoSound, OnSound);
+	signal s_currentState, s_nextState	:	state;
+	
+begin
+
+	change_proc : process(clk, reset)
+	
+	begin
+				if (reset='1') then
+					s_currentState <= TurnedOn;
+				elsif(rising_edge(clk)) then
+					s_currentState <= s_nextState;
+				end if;
+	end process;
+	
+	
+	def_proc:	process(s_currentState, enable, trig, snd)
+	begin
+	  case (s_currentState) is
+		 
+		 when TurnedOff =>
+				s2<='0';
+				s1<='0';
+				s0<='0';
+				
+				if	(enable='1') then
+					s_nextState <=TurnedOn;
+				else
+					s_nextState <= s_currentState;
+				end if;
+				
+				
+		when TurnedOn =>
+				s2<='0';
+				s1<='0';
+				s0<='1'; --LIGAR AO LED E MUDAR NO ESQUEMA
+				
+				if (enable='1' and trig='1' and snd='0') then
+					s_nextState <= OnNoSound;
+				elsif (enable='1' and trig='1' and snd='1') then
+					s_nextState <= OnSound;
+				elsif (enable='0') then
+					s_nextState <= TurnedOff;
+				else
+					s_nextState <= s_currentState;
+				end if;
+				
+				
+		when OnNoSound =>
+				s2<='1';
+				s1<='0';
+				s0<='0';
+				
+				if(enable='1' and trig='1' and snd='1') then
+					s_nextState <= OnSound;
+				elsif(enable='0') then
+					s_nextState <= TurnedOff;
+				elsif(enable='1' and trig='0' and snd='0') then
+					s_nextState <= TurnedOn;
+				else
+					s_nextState <= s_currentState;
+				end if;
+				
+				
+				
+		when OnSound =>
+				s2<='1';
+				s1<='1';
+				s0<='1';
+				
+				if(enable='1' and trig='0' and snd='0') then
+					s_nextState <= TurnedOn;
+				elsif(enable='0') then
+					s_nextState <= TurnedOff;
+				else
+					s_nextState <= s_currentState;
+				end if;
+	
+	
+	  end case;
+	
+	end process;  
+
+end Behavioral;				
+				

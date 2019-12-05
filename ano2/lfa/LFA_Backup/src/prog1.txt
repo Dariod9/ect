@@ -1,0 +1,46 @@
+Integer x1
+x1=3
+
+Integer x2
+x2=5
+
+x1 = 2+x2
+print x1
+
+table t1
+t1 = createTable 4 4
+insert x1(2,3)t1
+insert x2(1,1)t1
+
+print t1
+
+newRow -> 2 t1
+newRow -> t1
+newColumn -> 3 t1
+
+
+table t3
+t3= copy t1
+print t3
+
+printRow 1 t1
+printColumn 2 t1
+
+Double d
+d=4.5
+insert d(1,2)t1
+
+String s
+s="Testes!"
+insert s(4,4)t1
+
+table t2
+t2 = createTable 3 3
+print t2
+
+print t1
+
+clearRow 2 t1
+clearColumn 4 t1
+
+print t1
