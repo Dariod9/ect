@@ -1,0 +1,1 @@
+INSERT INTO Hello Values (1234, 'Yo');

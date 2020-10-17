@@ -1,0 +1,1 @@
+SELECT publishers.pub_name, SUM(titles.ytd_sales) FROM (publishers JOIN titles on publishers.pub_id=titles.pub_id) GROUP BY publishers.pub_name

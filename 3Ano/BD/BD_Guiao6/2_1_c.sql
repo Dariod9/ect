@@ -1,0 +1,1 @@
+ Select Pname, SUM(works_on.Hours) as totalhours from (project join works_on on Pnumber=Pno) GROUP BY Pname

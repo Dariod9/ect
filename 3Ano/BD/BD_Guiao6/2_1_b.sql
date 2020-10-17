@@ -1,0 +1,1 @@
+Select * from (employee join (Select * from employee where (Fname='Carlos' AND Minit='D'AND Lname='Gomes')) as second_table on employee.Super_ssn=second_table.Ssn)

@@ -1,0 +1,1 @@
+SELECT titles.title FROM (titles JOIN (stores JOIN sales on stores.stor_id=sales.stor_id) on titles.title_id=sales.title_id) WHERE stor_name='Bookbeat'

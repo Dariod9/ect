@@ -1,0 +1,1 @@
+SELECT publishers.pub_name FROM (publishers JOIN titles on publishers.pub_id=titles.pub_id) WHERE titles.type='business';

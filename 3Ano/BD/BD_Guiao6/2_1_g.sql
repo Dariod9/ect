@@ -1,0 +1,1 @@
+Select * from (Select Fname, Lname, Count(Essn) as num_deps from (employee join dependent on Ssn=Essn) GROUP BY Fname, Lname) as tmp where tmp.num_deps>2	

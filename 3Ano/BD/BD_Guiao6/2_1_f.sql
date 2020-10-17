@@ -1,0 +1,1 @@
+Select Dname, AVG(Salary) as avg_sal from (employee join department on Dno=Dnumber)where Sex='F' GROUP BY Dname

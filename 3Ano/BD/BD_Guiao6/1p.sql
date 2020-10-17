@@ -1,0 +1,1 @@
+Select titles.title,  ytd_sales, authors.au_fname, authors.au_lname, ytd_sales*price as facturacao, ytd_sales*price*royalty*titleauthor.royaltyper/10000 as auths_revenue, ytd_sales*price*(100-royalty)/100 as publisher_revenue from (authors join (titles join titleauthor on titles.title_id=titleauthor.title_id) on authors.au_id=titleauthor.au_id) Order by titles.title

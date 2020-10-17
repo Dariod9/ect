@@ -1,0 +1,1 @@
+Select * from (Select Fname, Lname, Count(Essn) as num_deps from ((employee join department on Ssn=Mgr_ssn) left outer join dependent on Ssn=dependent.Essn) GROUP BY Fname, Lname) as tmp where tmp.num_deps=0

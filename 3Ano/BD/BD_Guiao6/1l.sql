@@ -1,0 +1,1 @@
+SELECT titles.type, publishers.pub_name , AVG(titles.price) as MediumPrice, SUM(titles.ytd_sales) as TotalSales from (titles join publishers ON titles.pub_id=publishers.pub_id) GROUP BY titles.type, publishers.pub_name
