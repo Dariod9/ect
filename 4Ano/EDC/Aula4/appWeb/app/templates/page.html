@@ -1,0 +1,11 @@
+<html>
+<body>
+
+<p>
+    {% for g,n in cursos.items %}
+
+         <li> <a href="/{{g}}"> {{ g }} - {{ n }}</a> </li>
+    {% endfor %}
+</p>
+</body>
+</html>

@@ -1,0 +1,84 @@
+16:12:32.827	SERVER	admin	OK	Server was started (port: 1984).
+16:13:23.660	127.0.0.1:62641	admin	REQUEST	OPEN f1	51.84 ms
+16:13:23.866	127.0.0.1:62641	admin	OK	Database 'f1' was opened in 196.78 ms.	205.81 ms
+16:13:40.658	127.0.0.1:62641	admin	REQUEST	OPEN f1	0.48 ms
+16:13:40.659	127.0.0.1:62641	admin	OK	Database 'f1' was opened in 0.04 ms.	0.47 ms
+16:13:40.661	127.0.0.1:62641	admin	REQUEST	DELETE RSS	1.2 ms
+16:13:40.687	127.0.0.1:62641	admin	OK	1 resource(s) deleted in 17.07 ms.	26.8 ms
+16:13:43.341	127.0.0.1:62641	admin	REQUEST	ADD TO RSS [...]	1.63 ms
+16:13:43.704	127.0.0.1:62641	admin	OK	Resource(s) added in 348.24 ms.	362.65 ms
+16:13:43.708	127.0.0.1:62641	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	3.09 ms
+16:13:44.341	127.0.0.1:62641	admin	OK	Query executed in 627.31 ms.	632.66 ms
+16:13:48.412	127.0.0.1:62641	admin	REQUEST	OPEN f1	0.64 ms
+16:13:48.412	127.0.0.1:62641	admin	OK	Database 'f1' was opened in 0.03 ms.	0.39 ms
+16:13:48.413	127.0.0.1:62641	admin	REQUEST	DELETE RSS	0.42 ms
+16:13:48.419	127.0.0.1:62641	admin	OK	1 resource(s) deleted in 1.58 ms.	6.3 ms
+16:13:50.744	127.0.0.1:62641	admin	REQUEST	ADD TO RSS [...]	0.24 ms
+16:13:50.772	127.0.0.1:62641	admin	OK	Resource(s) added in 23.28 ms.	27.34 ms
+16:13:50.773	127.0.0.1:62641	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.51 ms
+16:13:50.796	127.0.0.1:62641	admin	OK	Query executed in 22.82 ms.	23.48 ms
+16:14:57.590	127.0.0.1:62663	admin	REQUEST	OPEN f1	0.33 ms
+16:14:57.593	127.0.0.1:62663	admin	OK	Database 'f1' was opened in 2.47 ms.	2.75 ms
+16:14:57.899	127.0.0.1:62663	admin	REQUEST	OPEN f1	1.2 ms
+16:14:57.899	127.0.0.1:62663	admin	OK	Database 'f1' was opened in 0.03 ms.	0.36 ms
+16:14:57.900	127.0.0.1:62663	admin	REQUEST	DELETE RSS	0.61 ms
+16:14:57.905	127.0.0.1:62663	admin	OK	1 resource(s) deleted in 1.42 ms.	5.04 ms
+16:14:57.906	127.0.0.1:62663	admin	REQUEST	DELETE rssf1.xml	0.26 ms
+16:14:57.910	127.0.0.1:62663	admin	OK	1 resource(s) deleted in 1.25 ms.	4.49 ms
+16:15:00.133	127.0.0.1:62663	admin	REQUEST	ADD TO RSS [...]	0.15 ms
+16:15:00.151	127.0.0.1:62663	admin	OK	Resource(s) added in 13.89 ms.	18.3 ms
+16:15:00.151	127.0.0.1:62663	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.42 ms
+16:15:00.160	127.0.0.1:62663	admin	OK	Query executed in 8.07 ms.	8.67 ms
+16:21:42.143	127.0.0.1:62663	admin	REQUEST	XQUERY for $c in collection('f1')//ConstructorTable where $c/@season=2020 return $c	0.59 ms
+16:21:42.159	127.0.0.1:62663	admin	OK	Query executed in 15.52 ms.	16.1 ms
+16:21:44.652	127.0.0.1:62663	admin	REQUEST	XQUERY <root>{for $c in collection('f1')//Circuit return <elem> {$c/CircuitName} {$c/Location} </elem>}</root>	0.44 ms
+16:21:44.675	127.0.0.1:62663	admin	OK	Query executed in 22.42 ms.	22.87 ms
+16:29:52.513	127.0.0.1:62663	admin	REQUEST	XQUERY <root>{for $c in collection('f1')//Circuit return <elem> {$c/CircuitName} {$c/Location} </elem>}</root>	0.55 ms
+16:29:52.529	127.0.0.1:62663	admin	OK	Query executed in 15.48 ms.	16.16 ms
+16:34:05.461	127.0.0.1:62760	admin	REQUEST	OPEN f1	0.47 ms
+16:34:05.464	127.0.0.1:62760	admin	OK	Database 'f1' was opened in 2.54 ms.	2.89 ms
+16:38:35.329	127.0.0.1:62782	admin	REQUEST	OPEN f1	0.43 ms
+16:38:35.332	127.0.0.1:62782	admin	OK	Database 'f1' was opened in 2.32 ms.	2.68 ms
+16:38:37.391	127.0.0.1:62782	admin	REQUEST	OPEN f1	0.52 ms
+16:38:37.391	127.0.0.1:62782	admin	OK	Database 'f1' was opened in 0.03 ms.	0.32 ms
+16:38:37.392	127.0.0.1:62782	admin	REQUEST	DELETE RSS	0.39 ms
+16:38:37.398	127.0.0.1:62782	admin	OK	1 resource(s) deleted in 1.73 ms.	6.63 ms
+16:38:37.399	127.0.0.1:62782	admin	REQUEST	DELETE rssf1.xml	0.51 ms
+16:38:37.402	127.0.0.1:62782	admin	OK	0 resource(s) deleted in 1.22 ms.	2.6 ms
+16:38:39.428	127.0.0.1:62782	admin	REQUEST	ADD TO RSS [...]	0.19 ms
+16:38:39.454	127.0.0.1:62782	admin	OK	Resource(s) added in 19.79 ms.	26.45 ms
+16:38:39.455	127.0.0.1:62782	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.57 ms
+16:38:39.461	127.0.0.1:62782	admin	OK	Query executed in 5.02 ms.	5.55 ms
+16:39:18.181	127.0.0.1:62782	admin	REQUEST	OPEN f1	0.34 ms
+16:39:18.181	127.0.0.1:62782	admin	OK	Database 'f1' was opened in 0.02 ms.	0.24 ms
+16:39:18.181	127.0.0.1:62782	admin	REQUEST	DELETE RSS	0.15 ms
+16:39:18.185	127.0.0.1:62782	admin	OK	1 resource(s) deleted in 0.87 ms.	3.63 ms
+16:39:18.186	127.0.0.1:62782	admin	REQUEST	DELETE rssf1.xml	0.22 ms
+16:39:18.187	127.0.0.1:62782	admin	OK	0 resource(s) deleted in 0.65 ms.	1.75 ms
+16:39:20.054	127.0.0.1:62782	admin	REQUEST	ADD TO RSS [...]	0.21 ms
+16:39:20.069	127.0.0.1:62782	admin	OK	Resource(s) added in 9.77 ms.	14.38 ms
+16:39:20.070	127.0.0.1:62782	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.55 ms
+16:39:20.074	127.0.0.1:62782	admin	OK	Query executed in 4.3 ms.	4.75 ms
+17:00:33.947	127.0.0.1:62782	admin	REQUEST	OPEN f1	0.54 ms
+17:00:33.947	127.0.0.1:62782	admin	OK	Database 'f1' was opened in 0.02 ms.	0.3 ms
+17:00:33.947	127.0.0.1:62782	admin	REQUEST	DELETE RSS	0.18 ms
+17:00:33.951	127.0.0.1:62782	admin	OK	1 resource(s) deleted in 1.11 ms.	4.07 ms
+17:00:33.952	127.0.0.1:62782	admin	REQUEST	DELETE rssf1.xml	0.22 ms
+17:00:33.958	127.0.0.1:62782	admin	OK	0 resource(s) deleted in 1.33 ms.	5.84 ms
+17:00:35.504	127.0.0.1:62782	admin	REQUEST	XQUERY <Races>{ for $a in collection('f1')//RaceTable where $a/@season = 2020 return $a/Race }</Races>	0.43 ms
+17:00:35.519	127.0.0.1:62782	admin	OK	Query executed in 15.09 ms.	15.71 ms
+17:00:35.549	127.0.0.1:62782	admin	REQUEST	XQUERY <root>{ for $c in collection('f1')//StandingsTable where $c/@season=2020 return $c//DriverStanding[position() < 4] }</root>	0.31 ms
+17:00:35.553	127.0.0.1:62782	admin	OK	Query executed in 4.03 ms.	4.43 ms
+17:00:35.567	127.0.0.1:62782	admin	REQUEST	XQUERY <root>{ for $c in collection('f1')//StandingsTable where $c/@season=2020 return $c//ConstructorStanding[position() < 4] }</root>	0.33 ms
+17:00:35.571	127.0.0.1:62782	admin	OK	Query executed in 3.36 ms.	3.99 ms
+17:00:35.942	127.0.0.1:62782	admin	REQUEST	ADD TO RSS [...]	0.21 ms
+17:00:35.960	127.0.0.1:62782	admin	OK	Resource(s) added in 12.85 ms.	18.26 ms
+17:00:35.961	127.0.0.1:62782	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.46 ms
+17:00:35.969	127.0.0.1:62782	admin	OK	Query executed in 7.2 ms.	8.47 ms
+17:06:02.351	127.0.0.1:62782	admin	REQUEST	XQUERY <Races>{ for $a in collection('f1')//RaceTable where $a/@season = 2019 return $a/Race }</Races>	0.74 ms
+17:06:02.357	127.0.0.1:62782	admin	OK	Query executed in 5.53 ms.	6.2 ms
+17:06:02.363	127.0.0.1:62782	admin	REQUEST	XQUERY <root>{ for $c in collection('f1')//StandingsTable where $c/@season=2019 return $c//DriverStanding[position() < 4] }</root>	0.35 ms
+17:06:02.367	127.0.0.1:62782	admin	OK	Query executed in 3.06 ms.	3.51 ms
+17:06:02.369	127.0.0.1:62782	admin	REQUEST	XQUERY <root>{ for $c in collection('f1')//StandingsTable where $c/@season=2019 return $c//ConstructorStanding[position() < 4] }</root>	0.33 ms
+17:06:02.372	127.0.0.1:62782	admin	OK	Query executed in 2.33 ms.	2.78 ms
+19:44:51.495	SERVER	admin	OK	Server was stopped (port: 1984).

@@ -1,0 +1,134 @@
+<departamentos>
+<departamento>
+<guid>2</guid>
+<nome>Departamento de Ambiente e Ordenamento</nome>
+<sigla>dao</sigla>
+<url>http://www.ua.pt/dao</url>
+</departamento>
+<departamento>
+<guid>4</guid>
+<nome>Departamento de Biologia</nome>
+<sigla>dbio</sigla>
+<url>http://www.ua.pt/bio</url>
+</departamento>
+<departamento>
+<guid>17</guid>
+<nome>Departamento de Ciências Médicas</nome>
+<sigla>dcm</sigla>
+<url>http://www.ua.pt/cs</url>
+</departamento>
+<departamento>
+<guid>18</guid>
+<nome>Departamento de Ciências Sociais, Políticas e do Território</nome>
+<sigla>dcspt</sigla>
+<url>http://www.ua.pt/csjp</url>
+</departamento>
+<departamento>
+<guid>3</guid>
+<nome>Departamento de Comunicação e Arte</nome>
+<sigla>deca</sigla>
+<url>http://www.ua.pt/ca</url>
+</departamento>
+<departamento>
+<guid>7</guid>
+<nome>Departamento de Economia, Gestão, Engenharia Industrial e Turismo</nome>
+<sigla>degeit</sigla>
+<url>http://www.ua.pt/degei</url>
+</departamento>
+<departamento>
+<guid>28</guid>
+<nome>Departamento de Educação e Psicologia</nome>
+<sigla>dep</sigla>
+<url>http://www.ua.pt/de</url>
+</departamento>
+<departamento>
+<guid>1</guid>
+<nome>Departamento de Eletrónica, Telecomunicações e Informática</nome>
+<sigla>deti</sigla>
+<url>http://www.ua.pt/deti</url>
+</departamento>
+<departamento>
+<guid>16</guid>
+<nome>Departamento de Engenharia Civil</nome>
+<sigla>decivil</sigla>
+<url>http://www.ua.pt/civil</url>
+</departamento>
+<departamento>
+<guid>8</guid>
+<nome>Departamento de Engenharia de Materiais e Cerâmica</nome>
+<sigla>demac</sigla>
+<url>http://www.ua.pt/cv</url>
+</departamento>
+<departamento>
+<guid>10</guid>
+<nome>Departamento de Engenharia Mecânica</nome>
+<sigla>dem</sigla>
+<url>http://www.ua.pt/mec</url>
+</departamento>
+<departamento>
+<guid>11</guid>
+<nome>Departamento de Física</nome>
+<sigla>fis</sigla>
+<url>http://www.ua.pt/fis</url>
+</departamento>
+<departamento>
+<guid>12</guid>
+<nome>Departamento de Geociências</nome>
+<sigla>geo</sigla>
+<url>http://www.ua.pt/geo</url>
+</departamento>
+<departamento>
+<guid>13</guid>
+<nome>Departamento de Línguas e Culturas</nome>
+<sigla>dlc</sigla>
+<url>http://www.ua.pt/dlc</url>
+</departamento>
+<departamento>
+<guid>14</guid>
+<nome>Departamento de Matemática</nome>
+<sigla>dmat</sigla>
+<url>http://www.ua.pt/mat</url>
+</departamento>
+<departamento>
+<guid>15</guid>
+<nome>Departamento de Química</nome>
+<sigla>dqua</sigla>
+<url>http://www.ua.pt/dq</url>
+</departamento>
+<departamento>
+<guid>34</guid>
+<nome>Escola Doutoral</nome>
+<sigla>EDUA</sigla>
+<url>https://www.ua.pt/pt/escola-doutoral</url>
+</departamento>
+<departamento>
+<guid>21</guid>
+<nome>Escola Superior Aveiro Norte</nome>
+<sigla>esan</sigla>
+<url>http://www.ua.pt/esan/</url>
+</departamento>
+<departamento>
+<guid>19</guid>
+<nome>Escola Superior de Saúde</nome>
+<sigla>essua</sigla>
+<url>http://www.ua.pt/essua</url>
+</departamento>
+<departamento>
+<guid>9</guid>
+<nome>Escola Superior de Tecnologia e Gestão de Águeda</nome>
+<sigla>estga</sigla>
+<url>http://www.ua.pt/estga</url>
+</departamento>
+<departamento>
+<guid>20</guid>
+<nome>Instituto Superior de Contabilidade e Administração da Universidade de Aveiro</nome>
+<sigla>isca</sigla>
+<url>http://www.ua.pt/isca</url>
+</departamento>
+<departamento>
+<guid>31</guid>
+<nome>Universidade de Aveiro</nome>
+<sigla/>
+<url/>
+</departamento>
+</departamentos>

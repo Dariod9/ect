@@ -1,0 +1,88 @@
+00:20:04.903	SERVER	admin	OK	Server was started (port: 1984).
+00:23:23.667	127.0.0.1:50568	admin	REQUEST	OPEN f1	32.86 ms
+00:23:23.803	127.0.0.1:50568	admin	OK	Database 'f1' was opened in 131.11 ms.	135.83 ms
+00:23:28.103	127.0.0.1:50568	admin	REQUEST	OPEN f1	0.84 ms
+00:23:28.103	127.0.0.1:50568	admin	OK	Database 'f1' was opened in 0.09 ms.	0.63 ms
+00:23:28.105	127.0.0.1:50568	admin	REQUEST	DELETE RSS	1.68 ms
+00:23:28.140	127.0.0.1:50568	admin	OK	1 resource(s) deleted in 16.22 ms.	35.1 ms
+00:23:28.142	127.0.0.1:50568	admin	REQUEST	DELETE rssf1.xml	0.94 ms
+00:23:28.146	127.0.0.1:50568	admin	OK	0 resource(s) deleted in 1.7 ms.	3.79 ms
+00:23:30.854	127.0.0.1:50568	admin	REQUEST	ADD TO RSS [...]	1.42 ms
+00:23:31.091	127.0.0.1:50568	admin	OK	Resource(s) added in 226.47 ms.	236.92 ms
+00:23:31.093	127.0.0.1:50568	admin	OK	QUERY[0] import module namespace f1_methods = 'com.f1'; declare variable $ano external; f1_methods:rss()	2.68 ms
+00:23:31.758	127.0.0.1:50568	admin	OK	EXEC[0]	663.42 ms
+00:23:35.019	127.0.0.1:50568	admin	OK	QUERY[1] import module namespace f1_methods = 'com.f1'; declare variable $ano external; f1_methods:drivers($ano)	0.27 ms
+00:23:35.029	127.0.0.1:50568	admin	OK	BIND[1] $ano=2020	9.44 ms
+00:23:35.067	127.0.0.1:50568	admin	OK	EXEC[1]	37.71 ms
+00:23:41.849	127.0.0.1:50568	admin	REQUEST	OPEN f1	0.55 ms
+00:23:41.849	127.0.0.1:50568	admin	OK	Database 'f1' was opened in 0.03 ms.	0.41 ms
+00:23:41.850	127.0.0.1:50568	admin	REQUEST	DELETE RSS	0.5 ms
+00:23:41.857	127.0.0.1:50568	admin	OK	1 resource(s) deleted in 1.22 ms.	6.76 ms
+00:23:41.857	127.0.0.1:50568	admin	REQUEST	DELETE rssf1.xml	0.34 ms
+00:23:41.860	127.0.0.1:50568	admin	OK	0 resource(s) deleted in 0.93 ms.	2.99 ms
+00:23:45.104	127.0.0.1:50568	admin	REQUEST	ADD TO RSS [...]	0.27 ms
+00:23:45.144	127.0.0.1:50568	admin	OK	Resource(s) added in 31.79 ms.	40.09 ms
+00:23:45.144	127.0.0.1:50568	admin	OK	QUERY[2] import module namespace f1_methods = 'com.f1'; declare variable $ano external; f1_methods:rss()	0.14 ms
+00:23:45.168	127.0.0.1:50568	admin	OK	EXEC[2]	23.44 ms
+00:24:36.172	127.0.0.1:50568	admin	OK	QUERY[3] import module namespace f1_methods = 'com.f1'; declare variable $ano external; f1_methods:drivers($ano)	0.19 ms
+00:24:36.172	127.0.0.1:50568	admin	OK	BIND[3] $ano=2020	0.14 ms
+00:24:36.188	127.0.0.1:50568	admin	OK	EXEC[3]	15.14 ms
+00:24:41.232	127.0.0.1:50568	admin	OK	QUERY[4] import module namespace f1_methods = 'com.f1'; declare variable $ano external; f1_methods:constructors($ano)	0.28 ms
+00:24:41.232	127.0.0.1:50568	admin	OK	BIND[4] $ano=2020	0.17 ms
+00:24:41.249	127.0.0.1:50568	admin	OK	EXEC[4]	15.97 ms
+00:24:43.343	127.0.0.1:50568	admin	OK	QUERY[5] import module namespace f1_methods = 'com.f1'; f1_methods:tracks()	0.44 ms
+00:24:43.455	127.0.0.1:50568	admin	OK	EXEC[5]	109.98 ms
+00:24:49.131	127.0.0.1:50568	admin	OK	QUERY[6] import module namespace f1_methods = 'com.f1'; f1_methods:tracks()	0.15 ms
+00:24:49.162	127.0.0.1:50568	admin	OK	EXEC[6]	30.78 ms
+00:24:50.883	127.0.0.1:50568	admin	OK	QUERY[7] import module namespace f1_methods = 'com.f1'; declare variable $ano external; f1_methods:constructors($ano)	0.18 ms
+00:24:50.883	127.0.0.1:50568	admin	OK	BIND[7] $ano=2020	0.21 ms
+00:24:50.894	127.0.0.1:50568	admin	OK	EXEC[7]	9.98 ms
+00:25:12.515	127.0.0.1:50568	admin	REQUEST	OPEN f1	1.07 ms
+00:25:12.516	127.0.0.1:50568	admin	OK	Database 'f1' was opened in 0.02 ms.	0.43 ms
+00:25:12.516	127.0.0.1:50568	admin	REQUEST	DELETE RSS	0.29 ms
+00:25:12.522	127.0.0.1:50568	admin	OK	1 resource(s) deleted in 1.17 ms.	5.56 ms
+00:25:12.523	127.0.0.1:50568	admin	REQUEST	DELETE rssf1.xml	0.36 ms
+00:25:12.525	127.0.0.1:50568	admin	OK	0 resource(s) deleted in 1.14 ms.	2.42 ms
+00:25:14.571	127.0.0.1:50568	admin	REQUEST	ADD TO RSS [...]	0.15 ms
+00:25:14.588	127.0.0.1:50568	admin	OK	Resource(s) added in 13.1 ms.	17.39 ms
+00:25:14.588	127.0.0.1:50568	admin	OK	QUERY[8] import module namespace f1_methods = 'com.f1'; declare variable $ano external; f1_methods:rss()	0.08 ms
+00:25:14.603	127.0.0.1:50568	admin	OK	EXEC[8]	14.62 ms
+00:25:22.244	127.0.0.1:50568	admin	OK	QUERY[9] import module namespace f1_methods = 'com.f1'; declare variable $ano external; f1_methods:drivers($ano)	0.17 ms
+00:25:22.244	127.0.0.1:50568	admin	OK	BIND[9] $ano=2020	0.12 ms
+00:25:22.256	127.0.0.1:50568	admin	OK	EXEC[9]	11.47 ms
+00:25:25.261	127.0.0.1:50568	admin	OK	QUERY[10] import module namespace f1_methods = 'com.f1'; declare variable $ano external; f1_methods:drivers($ano)	0.17 ms
+00:25:25.262	127.0.0.1:50568	admin	OK	BIND[10] $ano=2001	0.16 ms
+00:25:25.271	127.0.0.1:50568	admin	OK	EXEC[10]	9.36 ms
+00:25:30.499	127.0.0.1:50568	admin	OK	QUERY[11] import module namespace f1_methods = 'com.f1'; f1_methods:tracks()	0.14 ms
+00:25:30.529	127.0.0.1:50568	admin	OK	EXEC[11]	30.41 ms
+00:25:32.477	127.0.0.1:50568	admin	OK	QUERY[12] import module namespace f1_methods = 'com.f1'; f1_methods:tracks()	0.23 ms
+00:25:32.496	127.0.0.1:50568	admin	OK	EXEC[12]	18.15 ms
+00:25:33.946	127.0.0.1:50568	admin	OK	QUERY[13] import module namespace f1_methods = 'com.f1'; declare variable $ano external; f1_methods:season($ano)	0.28 ms
+00:25:33.946	127.0.0.1:50568	admin	OK	BIND[13] $ano=2020	0.14 ms
+00:25:33.962	127.0.0.1:50568	admin	OK	EXEC[13]	15.46 ms
+00:25:33.968	127.0.0.1:50568	admin	OK	QUERY[14] import module namespace f1_methods = 'com.f1'; declare variable $ano external; f1_methods:top3_drivers($ano)	4.52 ms
+00:25:33.973	127.0.0.1:50568	admin	OK	BIND[14] $ano=2020	0.2 ms
+00:25:33.984	127.0.0.1:50568	admin	OK	EXEC[14]	11.29 ms
+00:25:33.986	127.0.0.1:50568	admin	OK	QUERY[15] import module namespace f1_methods = 'com.f1'; declare variable $ano external; f1_methods:top3_teams($ano)	0.17 ms
+00:25:33.986	127.0.0.1:50568	admin	OK	BIND[15] $ano=2020	0.11 ms
+00:25:33.993	127.0.0.1:50568	admin	OK	EXEC[15]	6.31 ms
+00:25:33.995	127.0.0.1:50568	admin	REQUEST	XQUERY <root>{for $c in collection('f1')//Comments where $c/@season=2020 return $c }</root>	0.96 ms
+00:25:34.002	127.0.0.1:50568	admin	OK	Query executed in 5.71 ms.	6.47 ms
+00:25:36.230	127.0.0.1:50568	admin	OK	QUERY[16] import module namespace f1_methods = 'com.f1'; declare variable $ano external; f1_methods:season($ano)	0.18 ms
+00:25:36.231	127.0.0.1:50568	admin	OK	BIND[16] $ano=2003	0.25 ms
+00:25:36.240	127.0.0.1:50568	admin	OK	EXEC[16]	8.6 ms
+00:25:36.245	127.0.0.1:50568	admin	OK	QUERY[17] import module namespace f1_methods = 'com.f1'; declare variable $ano external; f1_methods:top3_drivers($ano)	0.16 ms
+00:25:36.245	127.0.0.1:50568	admin	OK	BIND[17] $ano=2003	0.13 ms
+00:25:36.252	127.0.0.1:50568	admin	OK	EXEC[17]	7.1 ms
+00:25:36.254	127.0.0.1:50568	admin	OK	QUERY[18] import module namespace f1_methods = 'com.f1'; declare variable $ano external; f1_methods:top3_teams($ano)	0.13 ms
+00:25:36.254	127.0.0.1:50568	admin	OK	BIND[18] $ano=2003	0.14 ms
+00:25:36.265	127.0.0.1:50568	admin	OK	EXEC[18]	10.05 ms
+00:25:36.267	127.0.0.1:50568	admin	REQUEST	XQUERY <root>{for $c in collection('f1')//Comments where $c/@season=2003 return $c }</root>	0.57 ms
+00:25:36.272	127.0.0.1:50568	admin	OK	Query executed in 4.63 ms.	5.2 ms
+00:25:37.766	127.0.0.1:50568	admin	OK	QUERY[19] import module namespace f1_methods = 'com.f1'; declare variable $ano external; f1_methods:driver_standings($ano)	0.28 ms
+00:25:37.766	127.0.0.1:50568	admin	OK	BIND[19] $ano=2003	0.14 ms
+00:25:37.773	127.0.0.1:50568	admin	OK	EXEC[19]	7.04 ms
+00:25:43.010	127.0.0.1:50568	admin	OK	QUERY[20] import module namespace f1_methods = 'com.f1'; declare variable $ano external; declare variable $round external; f1_methods:race_results($ano,$round)	0.34 ms
+00:25:43.011	127.0.0.1:50568	admin	OK	BIND[20] $ano=2003	0.36 ms
+00:25:43.011	127.0.0.1:50568	admin	OK	BIND[20] $round=1	0.08 ms
+00:25:43.022	127.0.0.1:50568	admin	OK	EXEC[20]	10.34 ms

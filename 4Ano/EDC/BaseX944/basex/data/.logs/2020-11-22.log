@@ -1,0 +1,23 @@
+17:14:36.627	SERVER	admin	OK	Server was started (port: 1984).
+17:15:18.363	127.0.0.1:58588	admin	REQUEST	OPEN f1	37.1 ms
+17:15:18.494	127.0.0.1:58588	admin	OK	Database 'f1' was opened in 118.56 ms.	131.04 ms
+17:15:23.509	127.0.0.1:58588	admin	REQUEST	OPEN f1	0.48 ms
+17:15:23.509	127.0.0.1:58588	admin	OK	Database 'f1' was opened in 0.04 ms.	0.4 ms
+17:15:23.511	127.0.0.1:58588	admin	REQUEST	DELETE RSS	1.61 ms
+17:15:23.546	127.0.0.1:58588	admin	OK	1 resource(s) deleted in 19.42 ms.	35.69 ms
+17:15:23.547	127.0.0.1:58588	admin	REQUEST	DELETE rssf1.xml	0.49 ms
+17:15:23.550	127.0.0.1:58588	admin	OK	0 resource(s) deleted in 1.57 ms.	3.68 ms
+17:15:26.516	127.0.0.1:58588	admin	REQUEST	ADD TO RSS [...]	1.42 ms
+17:15:26.849	127.0.0.1:58588	admin	OK	Resource(s) added in 317.71 ms.	334.0 ms
+17:15:26.851	127.0.0.1:58588	admin	OK	QUERY[0] import module namespace f1_methods = 'com.f1'; declare variable $ano external; f1_methods:rss()	1.48 ms
+17:15:27.418	127.0.0.1:58588	admin	OK	EXEC[0]	566.75 ms
+17:15:27.591	127.0.0.1:58588	admin	REQUEST	OPEN f1	0.57 ms
+17:15:27.592	127.0.0.1:58588	admin	OK	Database 'f1' was opened in 0.02 ms.	0.34 ms
+17:15:27.592	127.0.0.1:58588	admin	REQUEST	DELETE RSS	0.46 ms
+17:15:27.601	127.0.0.1:58588	admin	OK	1 resource(s) deleted in 1.69 ms.	8.89 ms
+17:15:27.602	127.0.0.1:58588	admin	REQUEST	DELETE rssf1.xml	0.49 ms
+17:15:27.605	127.0.0.1:58588	admin	OK	0 resource(s) deleted in 1.26 ms.	2.51 ms
+17:15:29.899	127.0.0.1:58588	admin	REQUEST	ADD TO RSS [...]	0.18 ms
+17:15:29.938	127.0.0.1:58588	admin	OK	Resource(s) added in 33.12 ms.	38.79 ms
+17:15:29.939	127.0.0.1:58588	admin	OK	QUERY[1] import module namespace f1_methods = 'com.f1'; declare variable $ano external; f1_methods:rss()	0.17 ms
+17:15:29.963	127.0.0.1:58588	admin	OK	EXEC[1]	24.16 ms
