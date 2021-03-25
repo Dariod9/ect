@@ -1,0 +1,16 @@
+//asdbhjsdbs
+
+print "hey"
+
+
+
+x="Miguel"+"MOS"
+print x + "ya"
+
+z=x+" tu aí"
+
+x= ("Miguel"/"i"/"o")
+print x
+y= (x/"uel"/"wai") + " supostamente é bem bacano"
+print y
+print (x/"uel"/"wai") + " supostamente é bem bacano"

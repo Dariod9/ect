@@ -1,0 +1,15 @@
+table t1
+t1 = createTable 3 3
+print t1
+
+Double x
+
+x = 2.0*(((2.0+2.0*3.0)+1)/2.0)
+print x
+
+Double y
+y = 3.0 + 1 +x
+print y
+
+insert x(2,2) t1
+print t1
