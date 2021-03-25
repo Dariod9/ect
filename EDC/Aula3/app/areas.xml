@@ -1,0 +1,1017 @@
+<areas>
+<area>
+<guid>238</guid>
+<nome>214 - Design</nome>
+<sigla>
+<![CDATA[ DGN ]]>
+</sigla>
+</area>
+<area>
+<guid>239</guid>
+<nome>222 - Línguas e Literaturas Estrangeiras</nome>
+<sigla>
+<![CDATA[ LLE ]]>
+</sigla>
+</area>
+<area>
+<guid>240</guid>
+<nome>223 - Língua e Literatura Materna</nome>
+<sigla>
+<![CDATA[ LLM ]]>
+</sigla>
+</area>
+<area>
+<guid>241</guid>
+<nome>345 - Gestão e Administração</nome>
+<sigla>
+<![CDATA[ GA ]]>
+</sigla>
+</area>
+<area>
+<guid>248</guid>
+<nome>347 - Enquadramento na organização/Empresa</nome>
+<sigla>
+<![CDATA[ EOE ]]>
+</sigla>
+</area>
+<area>
+<guid>249</guid>
+<nome>440 - Ciências Físicas</nome>
+<sigla>
+<![CDATA[ CF ]]>
+</sigla>
+</area>
+<area>
+<guid>242</guid>
+<nome>441 - Física</nome>
+<sigla>
+<![CDATA[ FIS ]]>
+</sigla>
+</area>
+<area>
+<guid>243</guid>
+<nome>442 - Química</nome>
+<sigla>
+<![CDATA[ QUIM ]]>
+</sigla>
+</area>
+<area>
+<guid>244</guid>
+<nome>461 - Matemática</nome>
+<sigla>
+<![CDATA[ MAT ]]>
+</sigla>
+</area>
+<area>
+<guid>245</guid>
+<nome>482 - Informática na Ótica do Utilizador</nome>
+<sigla>
+<![CDATA[ IOU ]]>
+</sigla>
+</area>
+<area>
+<guid>246</guid>
+<nome>520 - Engenharias e Técnicas Afins</nome>
+<sigla>
+<![CDATA[ ETA ]]>
+</sigla>
+</area>
+<area>
+<guid>247</guid>
+<nome>521 - Metalúrgica e Metalomecânica</nome>
+<sigla>
+<![CDATA[ MM ]]>
+</sigla>
+</area>
+<area>
+<guid>250</guid>
+<nome>522 - Eletricidade e Energia</nome>
+<sigla>
+<![CDATA[ EE ]]>
+</sigla>
+</area>
+<area>
+<guid>251</guid>
+<nome>523 - Eletrónica e Automação</nome>
+<sigla>
+<![CDATA[ EAut ]]>
+</sigla>
+</area>
+<area>
+<guid>149</guid>
+<nome>Ambiente</nome>
+<sigla>
+<![CDATA[ AMB ]]>
+</sigla>
+</area>
+<area>
+<guid>234</guid>
+<nome>Bioinformática</nome>
+<sigla>
+<![CDATA[ BI ]]>
+</sigla>
+</area>
+<area>
+<guid>2</guid>
+<nome>Biologia</nome>
+<sigla>
+<![CDATA[ B ]]>
+</sigla>
+</area>
+<area>
+<guid>3</guid>
+<nome>Biologia Integrativa</nome>
+<sigla>
+<![CDATA[ B/B2 ]]>
+</sigla>
+</area>
+<area>
+<guid>196</guid>
+<nome>Biologia Marinha</nome>
+<sigla>
+<![CDATA[ BMA ]]>
+</sigla>
+</area>
+<area>
+<guid>147</guid>
+<nome>Biologia/Geologia</nome>
+<sigla>
+<![CDATA[ B/Geo ]]>
+</sigla>
+</area>
+<area>
+<guid>4</guid>
+<nome>Bioquímica</nome>
+<sigla>
+<![CDATA[ BQ ]]>
+</sigla>
+</area>
+<area>
+<guid>150</guid>
+<nome>Biotecnologia</nome>
+<sigla>
+<![CDATA[ BIOTEC ]]>
+</sigla>
+</area>
+<area>
+<guid>215</guid>
+<nome>Biotecnologia</nome>
+<sigla>
+<![CDATA[ BT ]]>
+</sigla>
+</area>
+<area>
+<guid>151</guid>
+<nome>Cências da Comunicação e da Informação / Cências e Tecnologias da Comunicação</nome>
+<sigla>
+<![CDATA[ CCI/CTC ]]>
+</sigla>
+</area>
+<area>
+<guid>6</guid>
+<nome>Ciência e Engenharia dos Materiais</nome>
+<sigla>
+<![CDATA[ CEM ]]>
+</sigla>
+</area>
+<area>
+<guid>231</guid>
+<nome>Ciências Ambiente e Ciências Mar</nome>
+<sigla>
+<![CDATA[ CA e CM ]]>
+</sigla>
+</area>
+<area>
+<guid>7</guid>
+<nome>Ciências Biomédicas</nome>
+<sigla>
+<![CDATA[ CBM ]]>
+</sigla>
+</area>
+<area>
+<guid>8</guid>
+<nome>Ciências da Educação</nome>
+<sigla>
+<![CDATA[ CE ]]>
+</sigla>
+</area>
+<area>
+<guid>227</guid>
+<nome>Ciências da Educação / Educação de Infância</nome>
+<sigla>
+<![CDATA[ CE/Ei ]]>
+</sigla>
+</area>
+<area>
+<guid>9</guid>
+<nome>Ciências da Engenharia</nome>
+<sigla>
+<![CDATA[ CENG ]]>
+</sigla>
+</area>
+<area>
+<guid>138</guid>
+<nome>Ciências da Imagem Médica e Radioterapia</nome>
+<sigla>
+<![CDATA[ CIMR ]]>
+</sigla>
+</area>
+<area>
+<guid>153</guid>
+<nome>Ciências da Informação</nome>
+<sigla>
+<![CDATA[ CI ]]>
+</sigla>
+</area>
+<area>
+<guid>10</guid>
+<nome>Ciências da Linguagem</nome>
+<sigla>
+<![CDATA[ CL ]]>
+</sigla>
+</area>
+<area>
+<guid>139</guid>
+<nome>Ciências da Saúde</nome>
+<sigla>
+<![CDATA[ CSAU ]]>
+</sigla>
+</area>
+<area>
+<guid>207</guid>
+<nome>Ciências da Saúde/Fisioterapia</nome>
+<sigla>
+<![CDATA[ CSAU/FT ]]>
+</sigla>
+</area>
+<area>
+<guid>208</guid>
+<nome>Ciências da Saúde/Terapia da Fala</nome>
+<sigla>
+<![CDATA[ CSAU/TF ]]>
+</sigla>
+</area>
+<area>
+<guid>81</guid>
+<nome>Ciências do Ambiente</nome>
+<sigla>
+<![CDATA[ CA ]]>
+</sigla>
+</area>
+<area>
+<guid>154</guid>
+<nome>Ciências do Mar</nome>
+<sigla>
+<![CDATA[ CMAR ]]>
+</sigla>
+</area>
+<area>
+<guid>11</guid>
+<nome>Ciências e Engenharia do Ambiente</nome>
+<sigla>
+<![CDATA[ CEA ]]>
+</sigla>
+</area>
+<area>
+<guid>65</guid>
+<nome>Ciências e Tecnologias da Comunicação</nome>
+<sigla>
+<![CDATA[ CTC ]]>
+</sigla>
+</area>
+<area>
+<guid>13</guid>
+<nome>Ciências e Tecnologias da Saúde</nome>
+<sigla>
+<![CDATA[ CTS ]]>
+</sigla>
+</area>
+<area>
+<guid>14</guid>
+<nome>Ciências Empresariais e da Administração</nome>
+<sigla>
+<![CDATA[ CEAD ]]>
+</sigla>
+</area>
+<area>
+<guid>15</guid>
+<nome>Ciências Jurídicas</nome>
+<sigla>
+<![CDATA[ CJ ]]>
+</sigla>
+</area>
+<area>
+<guid>156</guid>
+<nome>Ciências Jurídicas / Direito</nome>
+<sigla>
+<![CDATA[ CJ/Dir ]]>
+</sigla>
+</area>
+<area>
+<guid>218</guid>
+<nome>Ciências Médicas</nome>
+<sigla>
+<![CDATA[ CMD ]]>
+</sigla>
+</area>
+<area>
+<guid>16</guid>
+<nome>Ciências Políticas</nome>
+<sigla>
+<![CDATA[ CP ]]>
+</sigla>
+</area>
+<area>
+<guid>17</guid>
+<nome>Ciências Sociais</nome>
+<sigla>
+<![CDATA[ CS ]]>
+</sigla>
+</area>
+<area>
+<guid>18</guid>
+<nome>Clínica</nome>
+<sigla>
+<![CDATA[ CLI ]]>
+</sigla>
+</area>
+<area>
+<guid>157</guid>
+<nome>Comércio</nome>
+<sigla>
+<![CDATA[ ]]>
+</sigla>
+</area>
+<area>
+<guid>214</guid>
+<nome>Comércio</nome>
+<sigla>
+<![CDATA[ Com ]]>
+</sigla>
+</area>
+<area>
+<guid>19</guid>
+<nome>Computação Teórica</nome>
+<sigla>
+<![CDATA[ M/Ct ]]>
+</sigla>
+</area>
+<area>
+<guid>20</guid>
+<nome>Contabilidade</nome>
+<sigla>
+<![CDATA[ C ]]>
+</sigla>
+</area>
+<area>
+<guid>202</guid>
+<nome>Contabilidade e Fiscalidade</nome>
+<sigla>
+<![CDATA[ C/Fis ]]>
+</sigla>
+</area>
+<area>
+<guid>21</guid>
+<nome>Design</nome>
+<sigla>
+<![CDATA[ DS ]]>
+</sigla>
+</area>
+<area>
+<guid>158</guid>
+<nome>Design / Desenho</nome>
+<sigla>
+<![CDATA[ DS/De ]]>
+</sigla>
+</area>
+<area>
+<guid>22</guid>
+<nome>Design de Comunicação</nome>
+<sigla>
+<![CDATA[ DS/Dc ]]>
+</sigla>
+</area>
+<area>
+<guid>159</guid>
+<nome>Didáctica e Tecnologia Educativa / Desenvolvimento Curricular</nome>
+<sigla>
+<![CDATA[ DTE/Dc ]]>
+</sigla>
+</area>
+<area>
+<guid>160</guid>
+<nome>Didática e Formação</nome>
+<sigla>
+<![CDATA[ DF ]]>
+</sigla>
+</area>
+<area>
+<guid>24</guid>
+<nome>Didática e Tecnologia Educativa</nome>
+<sigla>
+<![CDATA[ DTE ]]>
+</sigla>
+</area>
+<area>
+<guid>230</guid>
+<nome>Didática e Tecnologia Educativa/Ciência e Tecnologia da Comunicação</nome>
+<sigla>
+<![CDATA[ DTE/Ctc ]]>
+</sigla>
+</area>
+<area>
+<guid>78</guid>
+<nome>Direito</nome>
+<sigla>
+<![CDATA[ D ]]>
+</sigla>
+</area>
+<area>
+<guid>161</guid>
+<nome>E-cidades e Território</nome>
+<sigla>
+<![CDATA[ ECT ]]>
+</sigla>
+</area>
+<area>
+<guid>162</guid>
+<nome>E-governo</nome>
+<sigla>
+<![CDATA[ EGV ]]>
+</sigla>
+</area>
+<area>
+<guid>25</guid>
+<nome>Economia</nome>
+<sigla>
+<![CDATA[ E ]]>
+</sigla>
+</area>
+<area>
+<guid>209</guid>
+<nome>Educação</nome>
+<sigla>
+<![CDATA[ EDU ]]>
+</sigla>
+</area>
+<area>
+<guid>163</guid>
+<nome>Electromagnetismo</nome>
+<sigla>
+<![CDATA[ EM ]]>
+</sigla>
+</area>
+<area>
+<guid>164</guid>
+<nome>Electrónica e Automação</nome>
+<sigla>
+<![CDATA[ Ele/Aut ]]>
+</sigla>
+</area>
+<area>
+<guid>26</guid>
+<nome>Eletrotecnia</nome>
+<sigla>
+<![CDATA[ ELE ]]>
+</sigla>
+</area>
+<area>
+<guid>27</guid>
+<nome>Eletrotecnia / Análise e Processamento de Sinal</nome>
+<sigla>
+<![CDATA[ ELE/Aps ]]>
+</sigla>
+</area>
+<area>
+<guid>28</guid>
+<nome>Eletrotecnia / Controlo</nome>
+<sigla>
+<![CDATA[ ELE/Cont ]]>
+</sigla>
+</area>
+<area>
+<guid>29</guid>
+<nome>Eletrotecnia / Eletrónica (Elt)</nome>
+<sigla>
+<![CDATA[ ELE/Elt ]]>
+</sigla>
+</area>
+<area>
+<guid>30</guid>
+<nome>Eletrotecnia / Eletrotecnia Geral</nome>
+<sigla>
+<![CDATA[ ELE/Elg ]]>
+</sigla>
+</area>
+<area>
+<guid>31</guid>
+<nome>Eletrotecnia / Telecomunicações</nome>
+<sigla>
+<![CDATA[ ELE/Tel ]]>
+</sigla>
+</area>
+<area>
+<guid>91</guid>
+<nome>Energia</nome>
+<sigla>
+<![CDATA[ ENER ]]>
+</sigla>
+</area>
+<area>
+<guid>121</guid>
+<nome>Enfermagem</nome>
+<sigla>
+<![CDATA[ ENF ]]>
+</sigla>
+</area>
+<area>
+<guid>165</guid>
+<nome>Engª Quimica Biológica</nome>
+<sigla>
+<![CDATA[ EQB ]]>
+</sigla>
+</area>
+<area>
+<guid>166</guid>
+<nome>Engª Química e Biológica</nome>
+<sigla>
+<![CDATA[ EBQ ]]>
+</sigla>
+</area>
+<area>
+<guid>80</guid>
+<nome>Engenharia Biomédica</nome>
+<sigla>
+<![CDATA[ EBM ]]>
+</sigla>
+</area>
+<area>
+<guid>32</guid>
+<nome>Engenharia Civil</nome>
+<sigla>
+<![CDATA[ ECIVIL ]]>
+</sigla>
+</area>
+<area>
+<guid>191</guid>
+<nome>Engenharia Computacional</nome>
+<sigla>
+<![CDATA[ ECOMP ]]>
+</sigla>
+</area>
+<area>
+<guid>167</guid>
+<nome>Engenharia das Telecomunicações</nome>
+<sigla>
+<![CDATA[ ET ]]>
+</sigla>
+</area>
+<area>
+<guid>111</guid>
+<nome>Engenharia e Gestão Industrial</nome>
+<sigla>
+<![CDATA[ EGI ]]>
+</sigla>
+</area>
+<area>
+<guid>168</guid>
+<nome>Engenharia Física</nome>
+<sigla>
+<![CDATA[ EF ]]>
+</sigla>
+</area>
+<area>
+<guid>33</guid>
+<nome>Engenharia Geográfica</nome>
+<sigla>
+<![CDATA[ EGG ]]>
+</sigla>
+</area>
+<area>
+<guid>206</guid>
+<nome>Engenharia Industrial</nome>
+<sigla>
+<![CDATA[ EI ]]>
+</sigla>
+</area>
+<area>
+<guid>35</guid>
+<nome>Engenharia Mecânica</nome>
+<sigla>
+<![CDATA[ EMEC ]]>
+</sigla>
+</area>
+<area>
+<guid>219</guid>
+<nome>Engenharia Mecânica / Electrotécnia</nome>
+<sigla>
+<![CDATA[ EMEC/ELE ]]>
+</sigla>
+</area>
+<area>
+<guid>36</guid>
+<nome>Engenharia Química</nome>
+<sigla>
+<![CDATA[ EQ ]]>
+</sigla>
+</area>
+<area>
+<guid>37</guid>
+<nome>Ensino</nome>
+<sigla>
+<![CDATA[ ENS ]]>
+</sigla>
+</area>
+<area>
+<guid>205</guid>
+<nome>Estudos Chineses</nome>
+<sigla>
+<![CDATA[ ECH ]]>
+</sigla>
+</area>
+<area>
+<guid>38</guid>
+<nome>Estudos Culturais</nome>
+<sigla>
+<![CDATA[ EC ]]>
+</sigla>
+</area>
+<area>
+<guid>39</guid>
+<nome>Estudos de Arte</nome>
+<sigla>
+<![CDATA[ EA ]]>
+</sigla>
+</area>
+<area>
+<guid>228</guid>
+<nome>Estudos de Arte / Artes</nome>
+<sigla>
+<![CDATA[ EA/A ]]>
+</sigla>
+</area>
+<area>
+<guid>40</guid>
+<nome>Estudos em Design</nome>
+<sigla>
+<![CDATA[ DS/Ed ]]>
+</sigla>
+</area>
+<area>
+<guid>41</guid>
+<nome>Estudos Literários</nome>
+<sigla>
+<![CDATA[ EL ]]>
+</sigla>
+</area>
+<area>
+<guid>170</guid>
+<nome>Finanças</nome>
+<sigla>
+<![CDATA[ FIN ]]>
+</sigla>
+</area>
+<area>
+<guid>42</guid>
+<nome>Física</nome>
+<sigla>
+<![CDATA[ F ]]>
+</sigla>
+</area>
+<area>
+<guid>43</guid>
+<nome>Física / Física Aplicada (Fa)</nome>
+<sigla>
+<![CDATA[ F/Fa ]]>
+</sigla>
+</area>
+<area>
+<guid>45</guid>
+<nome>Física / Meteorologia e Oceanografia Física (Mof)</nome>
+<sigla>
+<![CDATA[ F/Mof ]]>
+</sigla>
+</area>
+<area>
+<guid>171</guid>
+<nome>Fisica/Química</nome>
+<sigla>
+<![CDATA[ F/Q ]]>
+</sigla>
+</area>
+<area>
+<guid>172</guid>
+<nome>Fisioterapia</nome>
+<sigla>
+<![CDATA[ FT ]]>
+</sigla>
+</area>
+<area>
+<guid>46</guid>
+<nome>Geociências</nome>
+<sigla>
+<![CDATA[ GEO ]]>
+</sigla>
+</area>
+<area>
+<guid>173</guid>
+<nome>Geociências/Minas e Georecursos</nome>
+<sigla>
+<![CDATA[ GMG ]]>
+</sigla>
+</area>
+<area>
+<guid>174</guid>
+<nome>Geografia</nome>
+<sigla>
+<![CDATA[ G ]]>
+</sigla>
+</area>
+<area>
+<guid>47</guid>
+<nome>Geografia</nome>
+<sigla>
+<![CDATA[ GG ]]>
+</sigla>
+</area>
+<area>
+<guid>175</guid>
+<nome>Geologia/Geociências</nome>
+<sigla>
+<![CDATA[ GEO/G ]]>
+</sigla>
+</area>
+<area>
+<guid>176</guid>
+<nome>Geriatria</nome>
+<sigla>
+<![CDATA[ Geri ]]>
+</sigla>
+</area>
+<area>
+<guid>177</guid>
+<nome>Gerontologia</nome>
+<sigla>
+<![CDATA[ GER ]]>
+</sigla>
+</area>
+<area>
+<guid>216</guid>
+<nome>Gerontologia</nome>
+<sigla>
+<![CDATA[ GR ]]>
+</sigla>
+</area>
+<area>
+<guid>48</guid>
+<nome>Gestão</nome>
+<sigla>
+<![CDATA[ GES ]]>
+</sigla>
+</area>
+<area>
+<guid>178</guid>
+<nome>Gestão Marketing e Estratégia</nome>
+<sigla>
+<![CDATA[ GME ]]>
+</sigla>
+</area>
+<area>
+<guid>179</guid>
+<nome>Gestão Marketing e Estratégia/Gestão/Economia/Outras</nome>
+<sigla>
+<![CDATA[ GME/G/E/O ]]>
+</sigla>
+</area>
+<area>
+<guid>232</guid>
+<nome>Gestão/Psicologia</nome>
+<sigla>
+<![CDATA[ GES/Psi ]]>
+</sigla>
+</area>
+<area>
+<guid>180</guid>
+<nome>História das Ciências e Educação Ciêntífica</nome>
+<sigla>
+<![CDATA[ HCEC ]]>
+</sigla>
+</area>
+<area>
+<guid>49</guid>
+<nome>História Natural e Biologia Ambiental</nome>
+<sigla>
+<![CDATA[ B/B1 ]]>
+</sigla>
+</area>
+<area>
+<guid>50</guid>
+<nome>Informática</nome>
+<sigla>
+<![CDATA[ I ]]>
+</sigla>
+</area>
+<area>
+<guid>51</guid>
+<nome>Informática / Arquitetura dos Sistemas Computacionais</nome>
+<sigla>
+<![CDATA[ I/Asc ]]>
+</sigla>
+</area>
+<area>
+<guid>52</guid>
+<nome>Informática / Ciência e Tecnologia da Programação</nome>
+<sigla>
+<![CDATA[ I/Ctp ]]>
+</sigla>
+</area>
+<area>
+<guid>54</guid>
+<nome>Informática / Sistemas de Informação</nome>
+<sigla>
+<![CDATA[ I/Si ]]>
+</sigla>
+</area>
+<area>
+<guid>181</guid>
+<nome>Infraestruturas de Conhecimento Para e -planning</nome>
+<sigla>
+<![CDATA[ EPI ]]>
+</sigla>
+</area>
+<area>
+<guid>55</guid>
+<nome>Investigação Operacional</nome>
+<sigla>
+<![CDATA[ M/Io ]]>
+</sigla>
+</area>
+<area>
+<guid>56</guid>
+<nome>Línguas</nome>
+<sigla>
+<![CDATA[ L ]]>
+</sigla>
+</area>
+<area>
+<guid>221</guid>
+<nome>Marketing</nome>
+<sigla>
+<![CDATA[ MARK ]]>
+</sigla>
+</area>
+<area>
+<guid>182</guid>
+<nome>Marketing e Publicidade</nome>
+<sigla>
+<![CDATA[ Mkt/Pub ]]>
+</sigla>
+</area>
+<area>
+<guid>57</guid>
+<nome>Matemática</nome>
+<sigla>
+<![CDATA[ M ]]>
+</sigla>
+</area>
+<area>
+<guid>235</guid>
+<nome>Matemática/Informática</nome>
+<sigla>
+<![CDATA[ M/I ]]>
+</sigla>
+</area>
+<area>
+<guid>194</guid>
+<nome>Meteorologia e Oceanografia Física</nome>
+<sigla>
+<![CDATA[ MOF ]]>
+</sigla>
+</area>
+<area>
+<guid>183</guid>
+<nome>Metodologia de Investigação</nome>
+<sigla>
+<![CDATA[ MI ]]>
+</sigla>
+</area>
+<area>
+<guid>237</guid>
+<nome>Multidisciplinar</nome>
+<sigla>
+<![CDATA[ MTD ]]>
+</sigla>
+</area>
+<area>
+<guid>58</guid>
+<nome>Música</nome>
+<sigla>
+<![CDATA[ MU ]]>
+</sigla>
+</area>
+<area>
+<guid>192</guid>
+<nome>Nanociências e Nanotecnologia</nome>
+<sigla>
+<![CDATA[ N&N ]]>
+</sigla>
+</area>
+<area>
+<guid>184</guid>
+<nome>Oceanografia Ecossistemas Marinhos</nome>
+<sigla>
+<![CDATA[ OEM ]]>
+</sigla>
+</area>
+<area>
+<guid>185</guid>
+<nome>Planeamento do Território</nome>
+<sigla>
+<![CDATA[ PT ]]>
+</sigla>
+</area>
+<area>
+<guid>186</guid>
+<nome>Planeamento e Gestão Ambiental</nome>
+<sigla>
+<![CDATA[ PGA ]]>
+</sigla>
+</area>
+<area>
+<guid>59</guid>
+<nome>Planeamento Regional e Urbano</nome>
+<sigla>
+<![CDATA[ PRU ]]>
+</sigla>
+</area>
+<area>
+<guid>74</guid>
+<nome>Psicologia</nome>
+<sigla>
+<![CDATA[ PSIC ]]>
+</sigla>
+</area>
+<area>
+<guid>233</guid>
+<nome>Qualidade</nome>
+<sigla>
+<![CDATA[ QUAL ]]>
+</sigla>
+</area>
+<area>
+<guid>187</guid>
+<nome>Qualquer Área Cientifica</nome>
+<sigla>
+<![CDATA[ QAC ]]>
+</sigla>
+</area>
+<area>
+<guid>60</guid>
+<nome>Química</nome>
+<sigla>
+<![CDATA[ Q ]]>
+</sigla>
+</area>
+<area>
+<guid>229</guid>
+<nome>Recursos Marinhos e Aquacultura</nome>
+<sigla>
+<![CDATA[ RMA ]]>
+</sigla>
+</area>
+<area>
+<guid>193</guid>
+<nome>Secretariado e Comunicação Empresarial</nome>
+<sigla>
+<![CDATA[ SCE ]]>
+</sigla>
+</area>
+<area>
+<guid>189</guid>
+<nome>Tecnologia das Comunicações</nome>
+<sigla>
+<![CDATA[ TC ]]>
+</sigla>
+</area>
+<area>
+<guid>236</guid>
+<nome>Tecnologia Industrial</nome>
+<sigla>
+<![CDATA[ TEI ]]>
+</sigla>
+</area>
+<area>
+<guid>190</guid>
+<nome>Teoria e Métodos de e -planning</nome>
+<sigla>
+<![CDATA[ ETM ]]>
+</sigla>
+</area>
+<area>
+<guid>61</guid>
+<nome>Tradução</nome>
+<sigla>
+<![CDATA[ T ]]>
+</sigla>
+</area>
+</areas>

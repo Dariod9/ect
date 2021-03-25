@@ -1,0 +1,700 @@
+11:40:28.634	SERVER	admin	OK	Server was started (port: 1984).
+11:46:05.609	127.0.0.1:50333	admin	REQUEST	XQUERY for $p in collection('f1')//DriverTable where $p/@season=2020 return $p	45.46 ms
+11:46:06.335	127.0.0.1:50333	admin	OK	Query executed in 713.31 ms.	726.43 ms
+11:46:07.528	127.0.0.1:50333	admin	REQUEST	XQUERY <root>{for $c in collection('f1')//Circuit return <elem> {$c/CircuitName} {$c/Location} </elem>}</root>	0.6 ms
+11:46:07.592	127.0.0.1:50333	admin	OK	Query executed in 64.38 ms.	64.98 ms
+11:47:32.374	127.0.0.1:50333	admin	REQUEST	XQUERY <root>{for $c in collection('f1')//Circuit return <elem> {$c/CircuitName} {$c/Location} </elem>}</root>	0.57 ms
+11:47:32.403	127.0.0.1:50333	admin	OK	Query executed in 28.18 ms.	29.04 ms
+11:47:55.229	127.0.0.1:50333	admin	REQUEST	XQUERY <root>{for $c in collection('f1')//Circuit return <elem> {$c/CircuitName} {$c/Location} </elem>}</root>	0.51 ms
+11:47:55.262	127.0.0.1:50333	admin	OK	Query executed in 32.52 ms.	32.99 ms
+13:35:01.936	127.0.0.1:51255	admin	REQUEST	XQUERY <root>{ for $a in collection('f1')//Race where $a/@season = 2020 return <elem> {$a/RaceName} {$a/Circuit}{$a/Location/Locality} {$a/Locality/Country} </elem> }</root>	3.1 ms
+13:35:01.956	127.0.0.1:51255	admin	OK	Query executed in 18.42 ms.	19.57 ms
+13:35:11.687	127.0.0.1:51255	admin	REQUEST	XQUERY for $p in collection('f1')//DriverTable where $p/@season=2020 return $p	0.51 ms
+13:35:11.694	127.0.0.1:51255	admin	OK	Query executed in 6.6 ms.	7.13 ms
+13:35:18.152	127.0.0.1:51255	admin	REQUEST	XQUERY for $c in collection('f1')//ConstructorTable where $c/@season=2018 return $c	0.56 ms
+13:35:18.159	127.0.0.1:51255	admin	OK	Query executed in 6.21 ms.	6.77 ms
+13:35:23.725	127.0.0.1:51255	admin	REQUEST	XQUERY <root>{for $c in collection('f1')//Circuit return <elem> {$c/CircuitName} {$c/Location} </elem>}</root>	0.44 ms
+13:35:23.740	127.0.0.1:51255	admin	OK	Query executed in 14.49 ms.	15.13 ms
+14:23:20.089	127.0.0.1:51439	admin	REQUEST	XQUERY for $p in collection('f1')//DriverTable where $p/@season=2020 return $p	6.37 ms
+14:23:20.111	127.0.0.1:51439	admin	OK	Query executed in 19.08 ms.	21.59 ms
+14:23:23.785	127.0.0.1:51439	admin	REQUEST	XQUERY <root>{ for $a in collection('f1')//Race where $a/@season = 2019 return <elem> {$a/RaceName} {$a/Circuit}{$a/Location/Locality} {$a/Locality/Country} </elem> }</root>	0.68 ms
+14:23:23.796	127.0.0.1:51439	admin	OK	Query executed in 10.1 ms.	10.81 ms
+14:23:38.274	127.0.0.1:51439	admin	REQUEST	XQUERY for $p in collection('f1')//DriverTable where $p/@season=2020 return $p	0.58 ms
+14:23:38.281	127.0.0.1:51439	admin	OK	Query executed in 5.71 ms.	6.48 ms
+14:23:47.639	127.0.0.1:51439	admin	REQUEST	XQUERY <root>{ for $a in collection('f1')//Race where $a/@season = 2020 return <elem> {$a/RaceName} {$a/Circuit}{$a/Location/Locality} {$a/Locality/Country} </elem> }</root>	0.39 ms
+14:23:47.650	127.0.0.1:51439	admin	OK	Query executed in 9.61 ms.	10.17 ms
+14:23:54.939	127.0.0.1:51439	admin	REQUEST	XQUERY for $p in collection('f1')//DriverTable where $p/@season=2020 return $p	0.39 ms
+14:23:54.945	127.0.0.1:51439	admin	OK	Query executed in 5.46 ms.	5.99 ms
+14:23:58.962	127.0.0.1:51439	admin	REQUEST	XQUERY for $c in collection('f1')//ConstructorTable where $c/@season=2018 return $c	0.43 ms
+14:23:58.968	127.0.0.1:51439	admin	OK	Query executed in 5.17 ms.	5.71 ms
+14:24:02.321	127.0.0.1:51439	admin	REQUEST	XQUERY <root>{for $c in collection('f1')//Circuit return <elem> {$c/CircuitName} {$c/Location} </elem>}</root>	0.39 ms
+14:24:02.342	127.0.0.1:51439	admin	OK	Query executed in 20.15 ms.	20.72 ms
+14:24:15.442	127.0.0.1:51439	admin	REQUEST	XQUERY <root>{ for $a in collection('f1')//Race where $a/@season = 2019 return <elem> {$a/RaceName} {$a/Circuit}{$a/Location/Locality} {$a/Locality/Country} </elem> }</root>	0.51 ms
+14:24:15.456	127.0.0.1:51439	admin	OK	Query executed in 9.35 ms.	13.24 ms
+14:24:20.440	127.0.0.1:51439	admin	REQUEST	XQUERY <root>{ for $a in collection('f1')//Race where $a/@season = 2020 return <elem> {$a/RaceName} {$a/Circuit}{$a/Location/Locality} {$a/Locality/Country} </elem> }</root>	0.41 ms
+14:24:20.453	127.0.0.1:51439	admin	OK	Query executed in 11.68 ms.	13.16 ms
+14:24:22.211	127.0.0.1:51439	admin	REQUEST	XQUERY for $p in collection('f1')//DriverTable where $p/@season=2020 return $p	0.54 ms
+14:24:22.218	127.0.0.1:51439	admin	OK	Query executed in 6.36 ms.	7.18 ms
+14:24:27.011	127.0.0.1:51439	admin	REQUEST	XQUERY for $p in collection('f1')//DriverTable where $p/@season=2020 return $p	0.6 ms
+14:24:27.019	127.0.0.1:51439	admin	OK	Query executed in 7.22 ms.	7.9 ms
+14:27:06.137	127.0.0.1:51439	admin	REQUEST	XQUERY <root>{ for $a in collection('f1')//Race where $a/@season = 2020 return <elem> {$a/RaceName} {$a/Circuit}{$a/Location/Locality} {$a/Locality/Country} </elem> }</root>	0.65 ms
+14:27:06.148	127.0.0.1:51439	admin	OK	Query executed in 10.1 ms.	10.71 ms
+14:27:10.882	127.0.0.1:51439	admin	REQUEST	XQUERY for $p in collection('f1')//DriverTable where $p/@season=2020 return $p	0.64 ms
+14:27:10.890	127.0.0.1:51439	admin	OK	Query executed in 6.91 ms.	7.44 ms
+14:27:26.793	127.0.0.1:51439	admin	REQUEST	XQUERY for $p in collection('f1')//DriverTable where $p/@season=2020 return $p	0.47 ms
+14:27:26.800	127.0.0.1:51439	admin	OK	Query executed in 6.99 ms.	7.46 ms
+14:27:28.732	127.0.0.1:51439	admin	REQUEST	XQUERY for $c in collection('f1')//ConstructorTable where $c/@season=2018 return $c	0.4 ms
+14:27:28.738	127.0.0.1:51439	admin	OK	Query executed in 4.81 ms.	5.39 ms
+14:27:36.145	127.0.0.1:51439	admin	REQUEST	XQUERY for $p in collection('f1')//DriverTable where $p/@season=2020 return $p	0.41 ms
+14:27:36.151	127.0.0.1:51439	admin	OK	Query executed in 5.5 ms.	5.95 ms
+14:27:37.336	127.0.0.1:51439	admin	REQUEST	XQUERY for $c in collection('f1')//ConstructorTable where $c/@season=2018 return $c	0.59 ms
+14:27:37.342	127.0.0.1:51439	admin	OK	Query executed in 5.09 ms.	5.7 ms
+14:27:39.081	127.0.0.1:51439	admin	REQUEST	XQUERY <root>{for $c in collection('f1')//Circuit return <elem> {$c/CircuitName} {$c/Location} </elem>}</root>	0.45 ms
+14:27:39.095	127.0.0.1:51439	admin	OK	Query executed in 13.01 ms.	13.69 ms
+14:27:51.829	127.0.0.1:51439	admin	REQUEST	XQUERY <root>{ for $a in collection('f1')//Race where $a/@season = 2020 return <elem> {$a/RaceName} {$a/Circuit}{$a/Location/Locality} {$a/Locality/Country} </elem> }</root>	0.67 ms
+14:27:51.839	127.0.0.1:51439	admin	OK	Query executed in 8.93 ms.	9.56 ms
+14:28:05.864	127.0.0.1:51439	admin	REQUEST	XQUERY <root>{ for $a in collection('f1')//Race where $a/@season = 2019 return <elem> {$a/RaceName} {$a/Circuit}{$a/Location/Locality} {$a/Locality/Country} </elem> }</root>	0.43 ms
+14:28:05.873	127.0.0.1:51439	admin	OK	Query executed in 9.08 ms.	9.71 ms
+14:28:24.484	127.0.0.1:51439	admin	REQUEST	XQUERY for $p in collection('f1')//DriverTable where $p/@season=2020 return $p	0.33 ms
+14:28:24.491	127.0.0.1:51439	admin	OK	Query executed in 5.44 ms.	5.98 ms
+14:28:44.585	127.0.0.1:51439	admin	REQUEST	XQUERY for $p in collection('f1')//DriverTable where $p/@season=2020 return $p	0.43 ms
+14:28:44.590	127.0.0.1:51439	admin	OK	Query executed in 4.71 ms.	5.18 ms
+14:28:48.000	127.0.0.1:51439	admin	REQUEST	XQUERY for $p in collection('f1')//DriverTable where $p/@season=2020 return $p	0.33 ms
+14:28:48.005	127.0.0.1:51439	admin	OK	Query executed in 4.53 ms.	5.04 ms
+14:28:49.418	127.0.0.1:51439	admin	REQUEST	XQUERY for $c in collection('f1')//ConstructorTable where $c/@season=2018 return $c	0.49 ms
+14:28:49.422	127.0.0.1:51439	admin	OK	Query executed in 4.01 ms.	4.48 ms
+14:28:52.816	127.0.0.1:51439	admin	REQUEST	XQUERY <root>{for $c in collection('f1')//Circuit return <elem> {$c/CircuitName} {$c/Location} </elem>}</root>	0.57 ms
+14:28:52.827	127.0.0.1:51439	admin	OK	Query executed in 9.74 ms.	10.21 ms
+16:21:50.827	127.0.0.1:53028	admin	REQUEST	OPEN f1	18.78 ms
+16:21:50.836	127.0.0.1:53028	admin	OK	Database 'f1' was opened in 7.16 ms.	8.17 ms
+16:21:51.674	127.0.0.1:53028	admin	REQUEST	DELETE rssf1.xml	4.53 ms
+16:21:51.691	127.0.0.1:53028	admin	OK	1 resource(s) deleted in 9.62 ms.	17.71 ms
+16:24:46.431	127.0.0.1:53060	admin	REQUEST	OPEN f1	0.52 ms
+16:24:46.434	127.0.0.1:53060	admin	OK	Database 'f1' was opened in 2.63 ms.	2.94 ms
+16:24:46.435	127.0.0.1:53060	admin	REQUEST	DELETE rssf1.xml	0.27 ms
+16:24:46.441	127.0.0.1:53060	admin	OK	1 resource(s) deleted in 1.2 ms.	5.98 ms
+16:24:46.487	127.0.0.1:53060	admin	REQUEST	ADD TO RSS [...]	2.33 ms
+16:24:46.710	127.0.0.1:53060	admin	OK	Resource(s) added in 216.16 ms.	223.48 ms
+16:41:25.821	127.0.0.1:53129	admin	REQUEST	OPEN f1	0.43 ms
+16:41:25.825	127.0.0.1:53129	admin	OK	Database 'f1' was opened in 3.62 ms.	3.9 ms
+16:41:25.826	127.0.0.1:53129	admin	REQUEST	DELETE rssf1.xml	0.31 ms
+16:41:25.827	127.0.0.1:53129	admin	ERROR	Improper use? Potential bug? Your feedback is welcome: Contact: basex-talk@mailman.uni-konstanz.de Version: BaseX 9.4.4 Java: Oracle Corporation, 9 OS: Windows 10, amd64 Stack Trace: java.lang.RuntimeException: f1: lock file does not exist. at org.basex.util.Util.notExpected(Util.java:61) at org.basex.data.DiskData.finishUpdate(DiskData.java:246) at org.basex.core.cmd.ACreate.update(ACreate.java:97) at org.basex.core.cmd.Delete.run(Delete.java:30) at org.basex.core.Command.run(Command.java:257) at org.basex.core.Command.execute(Command.java:93) at org.basex.server.ClientListener.run(ClientListener.java:143)	1.39 ms
+16:41:25.828	127.0.0.1:53129	admin	REQUEST	XQUERY <root>{ for $a in collection('f1') return <elem> {$a} </elem>} </root>	0.43 ms
+16:41:25.866	127.0.0.1:53129	admin	OK	Query executed in 37.4 ms.	38.23 ms
+16:41:42.170	127.0.0.1:53137	admin	REQUEST	OPEN f1	0.36 ms
+16:41:42.173	127.0.0.1:53137	admin	OK	Database 'f1' was opened in 2.41 ms.	2.72 ms
+16:41:42.173	127.0.0.1:53137	admin	REQUEST	DELETE rssf1.xml	0.43 ms
+16:41:42.174	127.0.0.1:53137	admin	ERROR	Improper use? Potential bug? Your feedback is welcome: Contact: basex-talk@mailman.uni-konstanz.de Version: BaseX 9.4.4 Java: Oracle Corporation, 9 OS: Windows 10, amd64 Stack Trace: java.lang.RuntimeException: f1: lock file does not exist. at org.basex.util.Util.notExpected(Util.java:61) at org.basex.data.DiskData.finishUpdate(DiskData.java:246) at org.basex.core.cmd.ACreate.update(ACreate.java:97) at org.basex.core.cmd.Delete.run(Delete.java:30) at org.basex.core.Command.run(Command.java:257) at org.basex.core.Command.execute(Command.java:93) at org.basex.server.ClientListener.run(ClientListener.java:143)	0.89 ms
+16:41:42.175	127.0.0.1:53137	admin	REQUEST	XQUERY <root>{ for $a in collection('f1') return <elem> {$a} </elem>} </root>	0.48 ms
+16:41:42.205	127.0.0.1:53137	admin	OK	Query executed in 29.02 ms.	29.57 ms
+16:42:26.928	127.0.0.1:53140	admin	REQUEST	OPEN f1	0.43 ms
+16:42:26.930	127.0.0.1:53140	admin	OK	Database 'f1' was opened in 2.57 ms.	2.8 ms
+16:42:26.931	127.0.0.1:53140	admin	REQUEST	DELETE rssf1.xml	0.26 ms
+16:42:26.931	127.0.0.1:53140	admin	ERROR	Improper use? Potential bug? Your feedback is welcome: Contact: basex-talk@mailman.uni-konstanz.de Version: BaseX 9.4.4 Java: Oracle Corporation, 9 OS: Windows 10, amd64 Stack Trace: java.lang.RuntimeException: f1: lock file does not exist. at org.basex.util.Util.notExpected(Util.java:61) at org.basex.data.DiskData.finishUpdate(DiskData.java:246) at org.basex.core.cmd.ACreate.update(ACreate.java:97) at org.basex.core.cmd.Delete.run(Delete.java:30) at org.basex.core.Command.run(Command.java:257) at org.basex.core.Command.execute(Command.java:93) at org.basex.server.ClientListener.run(ClientListener.java:143)	0.48 ms
+16:42:26.932	127.0.0.1:53140	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<10] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} </elem>} </root>	0.23 ms
+16:42:26.950	127.0.0.1:53140	admin	OK	Query executed in 17.7 ms.	18.12 ms
+16:42:40.627	127.0.0.1:53151	admin	REQUEST	OPEN f1	0.27 ms
+16:42:40.629	127.0.0.1:53151	admin	OK	Database 'f1' was opened in 2.48 ms.	2.68 ms
+16:42:40.630	127.0.0.1:53151	admin	REQUEST	DELETE rssf1.xml	0.22 ms
+16:42:40.630	127.0.0.1:53151	admin	ERROR	Improper use? Potential bug? Your feedback is welcome: Contact: basex-talk@mailman.uni-konstanz.de Version: BaseX 9.4.4 Java: Oracle Corporation, 9 OS: Windows 10, amd64 Stack Trace: java.lang.RuntimeException: f1: lock file does not exist. at org.basex.util.Util.notExpected(Util.java:61) at org.basex.data.DiskData.finishUpdate(DiskData.java:246) at org.basex.core.cmd.ACreate.update(ACreate.java:97) at org.basex.core.cmd.Delete.run(Delete.java:30) at org.basex.core.Command.run(Command.java:257) at org.basex.core.Command.execute(Command.java:93) at org.basex.server.ClientListener.run(ClientListener.java:143)	0.44 ms
+16:42:40.631	127.0.0.1:53151	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<10] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} </elem>} </root>	0.25 ms
+16:42:40.639	127.0.0.1:53151	admin	OK	Query executed in 7.97 ms.	8.34 ms
+16:46:27.871	127.0.0.1:53164	admin	REQUEST	OPEN f1	0.36 ms
+16:46:27.874	127.0.0.1:53164	admin	OK	Database 'f1' was opened in 2.47 ms.	2.72 ms
+16:46:27.874	127.0.0.1:53164	admin	REQUEST	DELETE rssf1.xml	0.19 ms
+16:46:27.875	127.0.0.1:53164	admin	ERROR	Improper use? Potential bug? Your feedback is welcome: Contact: basex-talk@mailman.uni-konstanz.de Version: BaseX 9.4.4 Java: Oracle Corporation, 9 OS: Windows 10, amd64 Stack Trace: java.lang.RuntimeException: f1: lock file does not exist. at org.basex.util.Util.notExpected(Util.java:61) at org.basex.data.DiskData.finishUpdate(DiskData.java:246) at org.basex.core.cmd.ACreate.update(ACreate.java:97) at org.basex.core.cmd.Delete.run(Delete.java:30) at org.basex.core.Command.run(Command.java:257) at org.basex.core.Command.execute(Command.java:93) at org.basex.server.ClientListener.run(ClientListener.java:143)	0.53 ms
+16:46:27.875	127.0.0.1:53164	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} </elem>} </root>	0.18 ms
+16:46:27.881	127.0.0.1:53164	admin	OK	Query executed in 5.29 ms.	5.91 ms
+16:55:53.409	127.0.0.1:53164	admin	REQUEST	OPEN f1	0.59 ms
+16:55:53.409	127.0.0.1:53164	admin	OK	Database 'f1' was opened in 0.07 ms.	0.59 ms
+16:55:53.409	127.0.0.1:53164	admin	REQUEST	DELETE rssf1.xml	0.36 ms
+16:55:53.410	127.0.0.1:53164	admin	ERROR	Improper use? Potential bug? Your feedback is welcome: Contact: basex-talk@mailman.uni-konstanz.de Version: BaseX 9.4.4 Java: Oracle Corporation, 9 OS: Windows 10, amd64 Stack Trace: java.lang.RuntimeException: f1: lock file does not exist. at org.basex.util.Util.notExpected(Util.java:61) at org.basex.data.DiskData.finishUpdate(DiskData.java:246) at org.basex.core.cmd.ACreate.update(ACreate.java:97) at org.basex.core.cmd.Delete.run(Delete.java:30) at org.basex.core.Command.run(Command.java:257) at org.basex.core.Command.execute(Command.java:93) at org.basex.server.ClientListener.run(ClientListener.java:143)	0.86 ms
+16:55:53.411	127.0.0.1:53164	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} </elem>} </root>	0.58 ms
+16:55:53.417	127.0.0.1:53164	admin	OK	Query executed in 4.97 ms.	5.63 ms
+16:56:21.004	127.0.0.1:53164	admin	REQUEST	OPEN f1	0.27 ms
+16:56:21.004	127.0.0.1:53164	admin	OK	Database 'f1' was opened in 0.02 ms.	0.18 ms
+16:56:21.005	127.0.0.1:53164	admin	REQUEST	DELETE rssf1.xml	0.19 ms
+16:56:21.005	127.0.0.1:53164	admin	ERROR	Improper use? Potential bug? Your feedback is welcome: Contact: basex-talk@mailman.uni-konstanz.de Version: BaseX 9.4.4 Java: Oracle Corporation, 9 OS: Windows 10, amd64 Stack Trace: java.lang.RuntimeException: f1: lock file does not exist. at org.basex.util.Util.notExpected(Util.java:61) at org.basex.data.DiskData.finishUpdate(DiskData.java:246) at org.basex.core.cmd.ACreate.update(ACreate.java:97) at org.basex.core.cmd.Delete.run(Delete.java:30) at org.basex.core.Command.run(Command.java:257) at org.basex.core.Command.execute(Command.java:93) at org.basex.server.ClientListener.run(ClientListener.java:143)	0.51 ms
+16:56:21.005	127.0.0.1:53164	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} </elem>} </root>	0.16 ms
+16:56:21.010	127.0.0.1:53164	admin	OK	Query executed in 4.84 ms.	5.37 ms
+17:04:39.457	127.0.0.1:53310	admin	REQUEST	OPEN f1	0.48 ms
+17:04:39.460	127.0.0.1:53310	admin	OK	Database 'f1' was opened in 2.75 ms.	3.06 ms
+17:04:39.461	127.0.0.1:53310	admin	REQUEST	DELETE rssf1.xml	0.32 ms
+17:04:39.461	127.0.0.1:53310	admin	ERROR	Improper use? Potential bug? Your feedback is welcome: Contact: basex-talk@mailman.uni-konstanz.de Version: BaseX 9.4.4 Java: Oracle Corporation, 9 OS: Windows 10, amd64 Stack Trace: java.lang.RuntimeException: f1: lock file does not exist. at org.basex.util.Util.notExpected(Util.java:61) at org.basex.data.DiskData.finishUpdate(DiskData.java:246) at org.basex.core.cmd.ACreate.update(ACreate.java:97) at org.basex.core.cmd.Delete.run(Delete.java:30) at org.basex.core.Command.run(Command.java:257) at org.basex.core.Command.execute(Command.java:93) at org.basex.server.ClientListener.run(ClientListener.java:143)	0.43 ms
+17:04:39.462	127.0.0.1:53310	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} </elem>} </root>	0.39 ms
+17:04:39.468	127.0.0.1:53310	admin	OK	Query executed in 5.97 ms.	6.75 ms
+17:05:22.822	127.0.0.1:53310	admin	REQUEST	OPEN f1	0.64 ms
+17:05:22.822	127.0.0.1:53310	admin	OK	Database 'f1' was opened in 0.02 ms.	0.23 ms
+17:05:22.823	127.0.0.1:53310	admin	REQUEST	DELETE rssf1.xml	0.21 ms
+17:05:22.823	127.0.0.1:53310	admin	ERROR	Improper use? Potential bug? Your feedback is welcome: Contact: basex-talk@mailman.uni-konstanz.de Version: BaseX 9.4.4 Java: Oracle Corporation, 9 OS: Windows 10, amd64 Stack Trace: java.lang.RuntimeException: f1: lock file does not exist. at org.basex.util.Util.notExpected(Util.java:61) at org.basex.data.DiskData.finishUpdate(DiskData.java:246) at org.basex.core.cmd.ACreate.update(ACreate.java:97) at org.basex.core.cmd.Delete.run(Delete.java:30) at org.basex.core.Command.run(Command.java:257) at org.basex.core.Command.execute(Command.java:93) at org.basex.server.ClientListener.run(ClientListener.java:143)	0.63 ms
+17:05:22.824	127.0.0.1:53310	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} </elem>} </root>	0.19 ms
+17:05:22.829	127.0.0.1:53310	admin	OK	Query executed in 5.42 ms.	5.86 ms
+17:05:41.227	127.0.0.1:53310	admin	REQUEST	OPEN f1	0.32 ms
+17:05:41.228	127.0.0.1:53310	admin	OK	Database 'f1' was opened in 0.02 ms.	0.21 ms
+17:05:41.228	127.0.0.1:53310	admin	REQUEST	DELETE rssf1.xml	0.13 ms
+17:05:41.228	127.0.0.1:53310	admin	ERROR	Improper use? Potential bug? Your feedback is welcome: Contact: basex-talk@mailman.uni-konstanz.de Version: BaseX 9.4.4 Java: Oracle Corporation, 9 OS: Windows 10, amd64 Stack Trace: java.lang.RuntimeException: f1: lock file does not exist. at org.basex.util.Util.notExpected(Util.java:61) at org.basex.data.DiskData.finishUpdate(DiskData.java:246) at org.basex.core.cmd.ACreate.update(ACreate.java:97) at org.basex.core.cmd.Delete.run(Delete.java:30) at org.basex.core.Command.run(Command.java:257) at org.basex.core.Command.execute(Command.java:93) at org.basex.server.ClientListener.run(ClientListener.java:143)	0.41 ms
+17:05:41.229	127.0.0.1:53310	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} </elem>} </root>	0.22 ms
+17:05:41.234	127.0.0.1:53310	admin	OK	Query executed in 5.18 ms.	5.75 ms
+17:05:56.465	127.0.0.1:53310	admin	REQUEST	OPEN f1	0.3 ms
+17:05:56.466	127.0.0.1:53310	admin	OK	Database 'f1' was opened in 0.02 ms.	0.22 ms
+17:05:56.466	127.0.0.1:53310	admin	REQUEST	DELETE rssf1.xml	0.13 ms
+17:05:56.467	127.0.0.1:53310	admin	ERROR	Improper use? Potential bug? Your feedback is welcome: Contact: basex-talk@mailman.uni-konstanz.de Version: BaseX 9.4.4 Java: Oracle Corporation, 9 OS: Windows 10, amd64 Stack Trace: java.lang.RuntimeException: f1: lock file does not exist. at org.basex.util.Util.notExpected(Util.java:61) at org.basex.data.DiskData.finishUpdate(DiskData.java:246) at org.basex.core.cmd.ACreate.update(ACreate.java:97) at org.basex.core.cmd.Delete.run(Delete.java:30) at org.basex.core.Command.run(Command.java:257) at org.basex.core.Command.execute(Command.java:93) at org.basex.server.ClientListener.run(ClientListener.java:143)	0.5 ms
+17:05:56.467	127.0.0.1:53310	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} </elem>} </root>	0.17 ms
+17:05:56.472	127.0.0.1:53310	admin	OK	Query executed in 5.0 ms.	5.29 ms
+17:06:46.525	127.0.0.1:53310	admin	REQUEST	OPEN f1	0.5 ms
+17:06:46.525	127.0.0.1:53310	admin	OK	Database 'f1' was opened in 0.02 ms.	0.25 ms
+17:06:46.526	127.0.0.1:53310	admin	REQUEST	DELETE rssf1.xml	0.34 ms
+17:06:46.526	127.0.0.1:53310	admin	ERROR	Improper use? Potential bug? Your feedback is welcome: Contact: basex-talk@mailman.uni-konstanz.de Version: BaseX 9.4.4 Java: Oracle Corporation, 9 OS: Windows 10, amd64 Stack Trace: java.lang.RuntimeException: f1: lock file does not exist. at org.basex.util.Util.notExpected(Util.java:61) at org.basex.data.DiskData.finishUpdate(DiskData.java:246) at org.basex.core.cmd.ACreate.update(ACreate.java:97) at org.basex.core.cmd.Delete.run(Delete.java:30) at org.basex.core.Command.run(Command.java:257) at org.basex.core.Command.execute(Command.java:93) at org.basex.server.ClientListener.run(ClientListener.java:143)	0.43 ms
+17:06:46.526	127.0.0.1:53310	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} </elem>} </root>	0.16 ms
+17:06:46.543	127.0.0.1:53310	admin	OK	Query executed in 15.95 ms.	16.43 ms
+17:07:21.993	127.0.0.1:53310	admin	REQUEST	OPEN f1	0.45 ms
+17:07:21.993	127.0.0.1:53310	admin	OK	Database 'f1' was opened in 0.02 ms.	0.21 ms
+17:07:21.994	127.0.0.1:53310	admin	REQUEST	DELETE rssf1.xml	0.51 ms
+17:07:21.997	127.0.0.1:53310	admin	OK	0 resource(s) deleted in 1.73 ms.	3.01 ms
+17:07:22.001	127.0.0.1:53310	admin	REQUEST	ADD TO RSS [...]	0.59 ms
+17:07:22.040	127.0.0.1:53310	admin	OK	Resource(s) added in 32.23 ms.	38.64 ms
+17:07:22.040	127.0.0.1:53310	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} </elem>} </root>	0.24 ms
+17:07:22.047	127.0.0.1:53310	admin	OK	Query executed in 5.72 ms.	6.14 ms
+17:07:29.416	127.0.0.1:53310	admin	REQUEST	OPEN f1	0.56 ms
+17:07:29.417	127.0.0.1:53310	admin	OK	Database 'f1' was opened in 0.02 ms.	0.22 ms
+17:07:29.417	127.0.0.1:53310	admin	REQUEST	DELETE rssf1.xml	0.17 ms
+17:07:29.419	127.0.0.1:53310	admin	OK	0 resource(s) deleted in 0.85 ms.	1.65 ms
+17:07:29.422	127.0.0.1:53310	admin	REQUEST	ADD TO RSS [...]	0.08 ms
+17:07:29.436	127.0.0.1:53310	admin	OK	Resource(s) added in 10.05 ms.	14.23 ms
+17:07:29.436	127.0.0.1:53310	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} </elem>} </root>	0.28 ms
+17:07:29.444	127.0.0.1:53310	admin	OK	Query executed in 7.78 ms.	8.24 ms
+17:07:38.907	127.0.0.1:53310	admin	REQUEST	OPEN f1	0.34 ms
+17:07:38.907	127.0.0.1:53310	admin	OK	Database 'f1' was opened in 0.02 ms.	0.29 ms
+17:07:38.908	127.0.0.1:53310	admin	REQUEST	DELETE rssf1.xml	0.19 ms
+17:07:38.909	127.0.0.1:53310	admin	OK	0 resource(s) deleted in 0.94 ms.	1.7 ms
+17:07:38.912	127.0.0.1:53310	admin	REQUEST	ADD TO RSS [...]	0.11 ms
+17:07:38.930	127.0.0.1:53310	admin	OK	Resource(s) added in 12.36 ms.	17.16 ms
+17:07:38.930	127.0.0.1:53310	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} </elem>} </root>	0.28 ms
+17:07:38.937	127.0.0.1:53310	admin	OK	Query executed in 6.56 ms.	6.95 ms
+17:08:00.148	127.0.0.1:53310	admin	REQUEST	OPEN f1	0.29 ms
+17:08:00.148	127.0.0.1:53310	admin	OK	Database 'f1' was opened in 0.02 ms.	0.19 ms
+17:08:00.149	127.0.0.1:53310	admin	REQUEST	DELETE rssf1.xml	0.18 ms
+17:08:00.150	127.0.0.1:53310	admin	OK	0 resource(s) deleted in 0.79 ms.	1.59 ms
+17:08:00.158	127.0.0.1:53310	admin	REQUEST	ADD TO RSS [...]	0.15 ms
+17:08:00.177	127.0.0.1:53310	admin	OK	Resource(s) added in 13.34 ms.	19.37 ms
+17:08:00.178	127.0.0.1:53310	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} </elem>} </root>	0.45 ms
+17:08:00.188	127.0.0.1:53310	admin	OK	Query executed in 9.76 ms.	10.34 ms
+17:08:34.575	127.0.0.1:53310	admin	REQUEST	OPEN f1	0.51 ms
+17:08:34.575	127.0.0.1:53310	admin	OK	Database 'f1' was opened in 0.03 ms.	0.3 ms
+17:08:34.576	127.0.0.1:53310	admin	REQUEST	DELETE rssf1.xml	0.23 ms
+17:08:34.578	127.0.0.1:53310	admin	OK	0 resource(s) deleted in 0.79 ms.	1.55 ms
+17:08:34.581	127.0.0.1:53310	admin	REQUEST	ADD TO RSS [...]	0.09 ms
+17:08:34.593	127.0.0.1:53310	admin	OK	Resource(s) added in 7.99 ms.	12.4 ms
+17:08:34.593	127.0.0.1:53310	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} </elem>} </root>	0.27 ms
+17:08:34.601	127.0.0.1:53310	admin	OK	Query executed in 7.16 ms.	7.58 ms
+17:08:55.442	127.0.0.1:53310	admin	REQUEST	OPEN f1	0.47 ms
+17:08:55.443	127.0.0.1:53310	admin	OK	Database 'f1' was opened in 0.03 ms.	0.38 ms
+17:08:55.443	127.0.0.1:53310	admin	REQUEST	DELETE rssf1.xml	0.16 ms
+17:08:55.445	127.0.0.1:53310	admin	OK	0 resource(s) deleted in 0.77 ms.	1.47 ms
+17:08:55.448	127.0.0.1:53310	admin	REQUEST	ADD TO RSS [...]	0.1 ms
+17:08:55.464	127.0.0.1:53310	admin	OK	Resource(s) added in 11.16 ms.	16.19 ms
+17:08:55.465	127.0.0.1:53310	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} </elem>} </root>	0.5 ms
+17:08:55.477	127.0.0.1:53310	admin	OK	Query executed in 12.14 ms.	12.55 ms
+17:09:15.466	127.0.0.1:53310	admin	REQUEST	OPEN f1	0.3 ms
+17:09:15.466	127.0.0.1:53310	admin	OK	Database 'f1' was opened in 0.02 ms.	0.17 ms
+17:09:15.466	127.0.0.1:53310	admin	REQUEST	DELETE rssf1.xml	0.12 ms
+17:09:15.468	127.0.0.1:53310	admin	OK	0 resource(s) deleted in 0.85 ms.	1.54 ms
+17:09:15.472	127.0.0.1:53310	admin	REQUEST	ADD TO RSS [...]	0.25 ms
+17:09:15.484	127.0.0.1:53310	admin	OK	Resource(s) added in 7.96 ms.	11.64 ms
+17:09:15.484	127.0.0.1:53310	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} </elem>} </root>	0.22 ms
+17:09:15.499	127.0.0.1:53310	admin	OK	Query executed in 13.77 ms.	14.1 ms
+17:10:53.181	127.0.0.1:53310	admin	REQUEST	OPEN f1	0.53 ms
+17:10:53.181	127.0.0.1:53310	admin	OK	Database 'f1' was opened in 0.03 ms.	0.36 ms
+17:10:53.182	127.0.0.1:53310	admin	REQUEST	DELETE rssf1.xml	0.36 ms
+17:10:53.185	127.0.0.1:53310	admin	OK	0 resource(s) deleted in 1.27 ms.	2.48 ms
+17:10:53.191	127.0.0.1:53310	admin	REQUEST	ADD TO RSS [...]	0.17 ms
+17:10:53.207	127.0.0.1:53310	admin	OK	Resource(s) added in 11.23 ms.	16.08 ms
+17:10:53.207	127.0.0.1:53310	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} </elem>} </root>	0.22 ms
+17:10:53.220	127.0.0.1:53310	admin	OK	Query executed in 12.47 ms.	12.82 ms
+17:11:33.328	127.0.0.1:53428	admin	REQUEST	OPEN f1	0.29 ms
+17:11:33.331	127.0.0.1:53428	admin	OK	Database 'f1' was opened in 2.33 ms.	2.58 ms
+17:11:33.331	127.0.0.1:53428	admin	REQUEST	DELETE rssf1.xml	0.25 ms
+17:11:33.333	127.0.0.1:53428	admin	OK	0 resource(s) deleted in 1.26 ms.	2.07 ms
+17:11:33.338	127.0.0.1:53428	admin	REQUEST	ADD TO RSS [...]	0.15 ms
+17:11:33.349	127.0.0.1:53428	admin	OK	Resource(s) added in 6.38 ms.	11.35 ms
+17:11:33.350	127.0.0.1:53428	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} </elem>} </root>	0.28 ms
+17:11:33.362	127.0.0.1:53428	admin	OK	Query executed in 11.46 ms.	11.84 ms
+17:11:59.324	127.0.0.1:53431	admin	REQUEST	OPEN f1	0.27 ms
+17:11:59.325	127.0.0.1:53431	admin	OK	Database 'f1' was opened in 1.97 ms.	2.13 ms
+17:11:59.325	127.0.0.1:53431	admin	REQUEST	DELETE rssf1.xml	0.16 ms
+17:11:59.327	127.0.0.1:53431	admin	OK	0 resource(s) deleted in 1.04 ms.	1.76 ms
+17:11:59.331	127.0.0.1:53431	admin	REQUEST	ADD TO RSS [...]	0.14 ms
+17:11:59.344	127.0.0.1:53431	admin	OK	Resource(s) added in 9.64 ms.	13.47 ms
+17:11:59.345	127.0.0.1:53431	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.29 ms
+17:11:59.359	127.0.0.1:53431	admin	OK	Query executed in 13.88 ms.	14.23 ms
+17:13:28.911	127.0.0.1:53431	admin	REQUEST	OPEN f1	0.42 ms
+17:13:28.911	127.0.0.1:53431	admin	OK	Database 'f1' was opened in 0.04 ms.	0.3 ms
+17:13:28.912	127.0.0.1:53431	admin	REQUEST	DELETE rssf1.xml	0.21 ms
+17:13:28.913	127.0.0.1:53431	admin	OK	0 resource(s) deleted in 0.86 ms.	1.52 ms
+17:13:28.916	127.0.0.1:53431	admin	REQUEST	ADD TO RSS [...]	0.09 ms
+17:13:28.925	127.0.0.1:53431	admin	OK	Resource(s) added in 5.93 ms.	9.17 ms
+17:13:28.926	127.0.0.1:53431	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.22 ms
+17:13:28.938	127.0.0.1:53431	admin	OK	Query executed in 11.43 ms.	11.74 ms
+17:14:16.165	127.0.0.1:53431	admin	REQUEST	OPEN f1	0.34 ms
+17:14:16.166	127.0.0.1:53431	admin	OK	Database 'f1' was opened in 0.03 ms.	0.33 ms
+17:14:16.166	127.0.0.1:53431	admin	REQUEST	DELETE rssf1.xml	0.18 ms
+17:14:16.168	127.0.0.1:53431	admin	OK	0 resource(s) deleted in 0.88 ms.	1.6 ms
+17:14:16.174	127.0.0.1:53431	admin	REQUEST	ADD TO RSS [...]	0.3 ms
+17:14:16.186	127.0.0.1:53431	admin	OK	Resource(s) added in 8.91 ms.	12.14 ms
+17:14:16.187	127.0.0.1:53431	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.88 ms
+17:14:16.200	127.0.0.1:53431	admin	OK	Query executed in 13.0 ms.	13.46 ms
+17:14:21.890	127.0.0.1:53431	admin	REQUEST	OPEN f1	0.35 ms
+17:14:21.890	127.0.0.1:53431	admin	OK	Database 'f1' was opened in 0.02 ms.	0.16 ms
+17:14:21.890	127.0.0.1:53431	admin	REQUEST	DELETE rssf1.xml	0.12 ms
+17:14:21.892	127.0.0.1:53431	admin	OK	0 resource(s) deleted in 0.73 ms.	1.39 ms
+17:14:21.895	127.0.0.1:53431	admin	REQUEST	ADD TO RSS [...]	0.13 ms
+17:14:21.904	127.0.0.1:53431	admin	OK	Resource(s) added in 5.66 ms.	8.54 ms
+17:14:21.904	127.0.0.1:53431	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.19 ms
+17:14:21.917	127.0.0.1:53431	admin	OK	Query executed in 12.47 ms.	12.79 ms
+17:14:25.883	127.0.0.1:53431	admin	REQUEST	OPEN f1	0.31 ms
+17:14:25.884	127.0.0.1:53431	admin	OK	Database 'f1' was opened in 0.04 ms.	0.22 ms
+17:14:25.884	127.0.0.1:53431	admin	REQUEST	DELETE rssf1.xml	0.43 ms
+17:14:25.887	127.0.0.1:53431	admin	OK	0 resource(s) deleted in 1.34 ms.	2.61 ms
+17:14:25.891	127.0.0.1:53431	admin	REQUEST	ADD TO RSS [...]	0.17 ms
+17:14:25.900	127.0.0.1:53431	admin	OK	Resource(s) added in 6.84 ms.	9.91 ms
+17:14:25.900	127.0.0.1:53431	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.2 ms
+17:14:25.926	127.0.0.1:53431	admin	OK	Query executed in 25.58 ms.	25.88 ms
+17:14:29.568	127.0.0.1:53431	admin	REQUEST	OPEN f1	0.33 ms
+17:14:29.568	127.0.0.1:53431	admin	OK	Database 'f1' was opened in 0.02 ms.	0.18 ms
+17:14:29.569	127.0.0.1:53431	admin	REQUEST	DELETE rssf1.xml	0.2 ms
+17:14:29.571	127.0.0.1:53431	admin	OK	0 resource(s) deleted in 0.98 ms.	2.05 ms
+17:14:29.575	127.0.0.1:53431	admin	REQUEST	ADD TO RSS [...]	0.11 ms
+17:14:29.589	127.0.0.1:53431	admin	OK	Resource(s) added in 10.6 ms.	14.64 ms
+17:14:29.590	127.0.0.1:53431	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.21 ms
+17:14:29.607	127.0.0.1:53431	admin	OK	Query executed in 16.93 ms.	17.27 ms
+17:14:38.642	127.0.0.1:53431	admin	REQUEST	OPEN f1	0.34 ms
+17:14:38.642	127.0.0.1:53431	admin	OK	Database 'f1' was opened in 0.02 ms.	0.18 ms
+17:14:38.642	127.0.0.1:53431	admin	REQUEST	DELETE rssf1.xml	0.17 ms
+17:14:38.644	127.0.0.1:53431	admin	OK	0 resource(s) deleted in 0.82 ms.	1.49 ms
+17:14:38.647	127.0.0.1:53431	admin	REQUEST	ADD TO RSS [...]	0.07 ms
+17:14:38.656	127.0.0.1:53431	admin	OK	Resource(s) added in 5.44 ms.	9.49 ms
+17:14:38.657	127.0.0.1:53431	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.28 ms
+17:14:38.671	127.0.0.1:53431	admin	OK	Query executed in 13.51 ms.	13.85 ms
+17:14:52.562	127.0.0.1:53431	admin	REQUEST	OPEN f1	0.34 ms
+17:14:52.563	127.0.0.1:53431	admin	OK	Database 'f1' was opened in 0.02 ms.	0.2 ms
+17:14:52.563	127.0.0.1:53431	admin	REQUEST	DELETE rssf1.xml	0.22 ms
+17:14:52.566	127.0.0.1:53431	admin	OK	0 resource(s) deleted in 1.39 ms.	2.42 ms
+17:14:52.569	127.0.0.1:53431	admin	REQUEST	ADD TO RSS [...]	0.11 ms
+17:14:52.580	127.0.0.1:53431	admin	OK	Resource(s) added in 5.96 ms.	10.65 ms
+17:14:52.581	127.0.0.1:53431	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.45 ms
+17:14:52.593	127.0.0.1:53431	admin	OK	Query executed in 11.94 ms.	12.27 ms
+17:15:11.240	127.0.0.1:53431	admin	REQUEST	OPEN f1	0.27 ms
+17:15:11.240	127.0.0.1:53431	admin	OK	Database 'f1' was opened in 0.02 ms.	0.16 ms
+17:15:11.241	127.0.0.1:53431	admin	REQUEST	DELETE rssf1.xml	0.13 ms
+17:15:11.242	127.0.0.1:53431	admin	OK	0 resource(s) deleted in 1.04 ms.	1.73 ms
+17:15:11.245	127.0.0.1:53431	admin	REQUEST	ADD TO RSS [...]	0.08 ms
+17:15:11.255	127.0.0.1:53431	admin	OK	Resource(s) added in 5.6 ms.	9.63 ms
+17:15:11.256	127.0.0.1:53431	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.49 ms
+17:15:11.271	127.0.0.1:53431	admin	OK	Query executed in 15.43 ms.	15.71 ms
+17:16:29.630	127.0.0.1:53431	admin	REQUEST	OPEN f1	0.69 ms
+17:16:29.630	127.0.0.1:53431	admin	OK	Database 'f1' was opened in 0.02 ms.	0.26 ms
+17:16:29.630	127.0.0.1:53431	admin	REQUEST	DELETE rssf1.xml	0.17 ms
+17:16:29.632	127.0.0.1:53431	admin	OK	0 resource(s) deleted in 0.79 ms.	1.46 ms
+17:16:29.635	127.0.0.1:53431	admin	REQUEST	ADD TO RSS [...]	0.09 ms
+17:16:29.645	127.0.0.1:53431	admin	OK	Resource(s) added in 5.92 ms.	9.35 ms
+17:16:29.645	127.0.0.1:53431	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.19 ms
+17:16:29.659	127.0.0.1:53431	admin	OK	Query executed in 13.93 ms.	14.2 ms
+17:16:44.615	127.0.0.1:53431	admin	REQUEST	OPEN f1	0.31 ms
+17:16:44.616	127.0.0.1:53431	admin	OK	Database 'f1' was opened in 0.02 ms.	0.25 ms
+17:16:44.616	127.0.0.1:53431	admin	REQUEST	DELETE rssf1.xml	0.24 ms
+17:16:44.618	127.0.0.1:53431	admin	OK	0 resource(s) deleted in 1.09 ms.	2.17 ms
+17:16:44.622	127.0.0.1:53431	admin	REQUEST	ADD TO RSS [...]	0.13 ms
+17:16:44.631	127.0.0.1:53431	admin	OK	Resource(s) added in 5.66 ms.	9.41 ms
+17:16:44.632	127.0.0.1:53431	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.33 ms
+17:16:44.645	127.0.0.1:53431	admin	OK	Query executed in 12.57 ms.	12.89 ms
+17:19:52.226	127.0.0.1:53431	admin	REQUEST	OPEN f1	0.37 ms
+17:19:52.226	127.0.0.1:53431	admin	OK	Database 'f1' was opened in 0.02 ms.	0.17 ms
+17:19:52.226	127.0.0.1:53431	admin	REQUEST	DELETE rssf1.xml	0.15 ms
+17:19:52.228	127.0.0.1:53431	admin	OK	0 resource(s) deleted in 0.88 ms.	1.59 ms
+17:19:52.231	127.0.0.1:53431	admin	REQUEST	ADD TO RSS [...]	0.13 ms
+17:19:52.242	127.0.0.1:53431	admin	OK	Resource(s) added in 7.14 ms.	11.43 ms
+17:19:52.243	127.0.0.1:53431	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.17 ms
+17:19:52.267	127.0.0.1:53431	admin	OK	Query executed in 25.05 ms.	25.44 ms
+17:20:09.420	127.0.0.1:53431	admin	REQUEST	OPEN f1	0.41 ms
+17:20:09.420	127.0.0.1:53431	admin	OK	Database 'f1' was opened in 0.02 ms.	0.18 ms
+17:20:09.421	127.0.0.1:53431	admin	REQUEST	DELETE rssf1.xml	0.17 ms
+17:20:09.422	127.0.0.1:53431	admin	OK	0 resource(s) deleted in 0.86 ms.	1.55 ms
+17:20:09.425	127.0.0.1:53431	admin	REQUEST	ADD TO RSS [...]	0.1 ms
+17:20:09.437	127.0.0.1:53431	admin	OK	Resource(s) added in 5.26 ms.	11.87 ms
+17:20:09.438	127.0.0.1:53431	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.2 ms
+17:20:09.452	127.0.0.1:53431	admin	OK	Query executed in 14.01 ms.	14.3 ms
+17:20:11.676	127.0.0.1:53431	admin	REQUEST	OPEN f1	0.27 ms
+17:20:11.677	127.0.0.1:53431	admin	OK	Database 'f1' was opened in 0.02 ms.	0.21 ms
+17:20:11.677	127.0.0.1:53431	admin	REQUEST	DELETE rssf1.xml	0.19 ms
+17:20:11.678	127.0.0.1:53431	admin	OK	0 resource(s) deleted in 0.74 ms.	1.46 ms
+17:20:11.683	127.0.0.1:53431	admin	REQUEST	ADD TO RSS [...]	0.11 ms
+17:20:11.692	127.0.0.1:53431	admin	OK	Resource(s) added in 5.11 ms.	8.46 ms
+17:20:11.692	127.0.0.1:53431	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.18 ms
+17:20:11.707	127.0.0.1:53431	admin	OK	Query executed in 14.38 ms.	14.65 ms
+17:20:16.393	127.0.0.1:53431	admin	REQUEST	OPEN f1	0.41 ms
+17:20:16.393	127.0.0.1:53431	admin	OK	Database 'f1' was opened in 0.05 ms.	0.24 ms
+17:20:16.393	127.0.0.1:53431	admin	REQUEST	DELETE rssf1.xml	0.17 ms
+17:20:16.395	127.0.0.1:53431	admin	OK	0 resource(s) deleted in 0.92 ms.	1.68 ms
+17:20:16.400	127.0.0.1:53431	admin	REQUEST	ADD TO RSS [...]	0.1 ms
+17:20:16.408	127.0.0.1:53431	admin	OK	Resource(s) added in 4.96 ms.	7.92 ms
+17:20:16.408	127.0.0.1:53431	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.17 ms
+17:20:16.425	127.0.0.1:53431	admin	OK	Query executed in 16.14 ms.	16.38 ms
+17:20:55.071	127.0.0.1:53431	admin	REQUEST	OPEN f1	0.43 ms
+17:20:55.071	127.0.0.1:53431	admin	OK	Database 'f1' was opened in 0.02 ms.	0.27 ms
+17:20:55.072	127.0.0.1:53431	admin	REQUEST	DELETE rssf1.xml	0.22 ms
+17:20:55.073	127.0.0.1:53431	admin	OK	0 resource(s) deleted in 0.77 ms.	1.43 ms
+17:20:55.076	127.0.0.1:53431	admin	REQUEST	ADD TO RSS [...]	0.07 ms
+17:20:55.085	127.0.0.1:53431	admin	OK	Resource(s) added in 5.71 ms.	8.67 ms
+17:20:55.086	127.0.0.1:53431	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.18 ms
+17:20:55.102	127.0.0.1:53431	admin	OK	Query executed in 16.12 ms.	16.42 ms
+17:21:45.895	127.0.0.1:53431	admin	REQUEST	OPEN f1	0.39 ms
+17:21:45.895	127.0.0.1:53431	admin	OK	Database 'f1' was opened in 0.02 ms.	0.26 ms
+17:21:45.896	127.0.0.1:53431	admin	REQUEST	DELETE rssf1.xml	0.32 ms
+17:21:45.898	127.0.0.1:53431	admin	OK	0 resource(s) deleted in 0.9 ms.	2.31 ms
+17:21:45.901	127.0.0.1:53431	admin	REQUEST	ADD TO RSS [...]	0.08 ms
+17:21:45.910	127.0.0.1:53431	admin	OK	Resource(s) added in 5.35 ms.	8.7 ms
+17:21:45.910	127.0.0.1:53431	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.18 ms
+17:21:45.927	127.0.0.1:53431	admin	OK	Query executed in 16.32 ms.	16.61 ms
+17:22:48.350	127.0.0.1:53431	admin	REQUEST	OPEN f1	0.37 ms
+17:22:48.350	127.0.0.1:53431	admin	OK	Database 'f1' was opened in 0.02 ms.	0.16 ms
+17:22:48.350	127.0.0.1:53431	admin	REQUEST	DELETE rssf1.xml	0.2 ms
+17:22:48.352	127.0.0.1:53431	admin	OK	0 resource(s) deleted in 1.0 ms.	2.11 ms
+17:22:48.356	127.0.0.1:53431	admin	REQUEST	ADD TO RSS [...]	0.1 ms
+17:22:48.366	127.0.0.1:53431	admin	OK	Resource(s) added in 4.93 ms.	9.68 ms
+17:22:48.367	127.0.0.1:53431	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.35 ms
+17:22:48.387	127.0.0.1:53431	admin	OK	Query executed in 20.41 ms.	20.79 ms
+17:23:01.275	127.0.0.1:53431	admin	REQUEST	OPEN f1	0.25 ms
+17:23:01.275	127.0.0.1:53431	admin	OK	Database 'f1' was opened in 0.01 ms.	0.14 ms
+17:23:01.276	127.0.0.1:53431	admin	REQUEST	DELETE rssf1.xml	0.16 ms
+17:23:01.277	127.0.0.1:53431	admin	OK	0 resource(s) deleted in 0.81 ms.	1.61 ms
+17:23:01.282	127.0.0.1:53431	admin	REQUEST	ADD TO RSS [...]	0.25 ms
+17:23:01.292	127.0.0.1:53431	admin	OK	Resource(s) added in 7.96 ms.	10.86 ms
+17:23:01.293	127.0.0.1:53431	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.51 ms
+17:23:01.317	127.0.0.1:53431	admin	OK	Query executed in 23.17 ms.	23.52 ms
+17:23:07.469	127.0.0.1:53431	admin	REQUEST	OPEN f1	0.38 ms
+17:23:07.469	127.0.0.1:53431	admin	OK	Database 'f1' was opened in 0.02 ms.	0.25 ms
+17:23:07.469	127.0.0.1:53431	admin	REQUEST	DELETE rssf1.xml	0.23 ms
+17:23:07.471	127.0.0.1:53431	admin	OK	0 resource(s) deleted in 1.02 ms.	1.88 ms
+17:23:07.475	127.0.0.1:53431	admin	REQUEST	ADD TO RSS [...]	0.11 ms
+17:23:07.483	127.0.0.1:53431	admin	OK	Resource(s) added in 5.01 ms.	8.81 ms
+17:23:07.485	127.0.0.1:53431	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.58 ms
+17:23:07.504	127.0.0.1:53431	admin	OK	Query executed in 19.2 ms.	19.68 ms
+17:25:12.196	127.0.0.1:53880	admin	REQUEST	OPEN f1	0.32 ms
+17:25:12.199	127.0.0.1:53880	admin	OK	Database 'f1' was opened in 2.28 ms.	2.54 ms
+17:25:12.199	127.0.0.1:53880	admin	REQUEST	DELETE rssf1.xml	0.23 ms
+17:25:12.203	127.0.0.1:53880	admin	OK	0 resource(s) deleted in 2.62 ms.	3.84 ms
+17:25:12.207	127.0.0.1:53880	admin	REQUEST	ADD TO RSS [...]	0.2 ms
+17:25:12.223	127.0.0.1:53880	admin	OK	Resource(s) added in 8.56 ms.	15.17 ms
+17:25:12.223	127.0.0.1:53880	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.27 ms
+17:25:12.252	127.0.0.1:53880	admin	OK	Query executed in 28.08 ms.	28.39 ms
+17:25:31.933	127.0.0.1:53880	admin	REQUEST	OPEN f1	0.42 ms
+17:25:31.933	127.0.0.1:53880	admin	OK	Database 'f1' was opened in 0.03 ms.	0.29 ms
+17:25:31.934	127.0.0.1:53880	admin	REQUEST	DELETE rssf1.xml	0.14 ms
+17:25:31.936	127.0.0.1:53880	admin	OK	0 resource(s) deleted in 1.3 ms.	1.94 ms
+17:25:31.939	127.0.0.1:53880	admin	REQUEST	ADD TO RSS [...]	0.08 ms
+17:25:31.947	127.0.0.1:53880	admin	OK	Resource(s) added in 4.88 ms.	8.09 ms
+17:25:31.947	127.0.0.1:53880	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.18 ms
+17:25:31.968	127.0.0.1:53880	admin	OK	Query executed in 20.16 ms.	20.44 ms
+17:25:42.614	127.0.0.1:53880	admin	REQUEST	OPEN f1	0.4 ms
+17:25:42.614	127.0.0.1:53880	admin	OK	Database 'f1' was opened in 0.02 ms.	0.23 ms
+17:25:42.615	127.0.0.1:53880	admin	REQUEST	DELETE rssf1.xml	0.18 ms
+17:25:42.616	127.0.0.1:53880	admin	OK	0 resource(s) deleted in 0.77 ms.	1.41 ms
+17:25:42.620	127.0.0.1:53880	admin	REQUEST	ADD TO RSS [...]	0.09 ms
+17:25:42.627	127.0.0.1:53880	admin	OK	Resource(s) added in 4.72 ms.	7.46 ms
+17:25:42.627	127.0.0.1:53880	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.17 ms
+17:25:42.646	127.0.0.1:53880	admin	OK	Query executed in 18.67 ms.	18.9 ms
+17:26:56.448	127.0.0.1:53880	admin	REQUEST	OPEN f1	0.38 ms
+17:26:56.448	127.0.0.1:53880	admin	OK	Database 'f1' was opened in 0.02 ms.	0.16 ms
+17:26:56.449	127.0.0.1:53880	admin	REQUEST	DELETE rssf1.xml	0.33 ms
+17:26:56.452	127.0.0.1:53880	admin	OK	0 resource(s) deleted in 1.99 ms.	3.41 ms
+17:26:56.456	127.0.0.1:53880	admin	REQUEST	ADD TO RSS [...]	0.3 ms
+17:26:56.464	127.0.0.1:53880	admin	OK	Resource(s) added in 4.9 ms.	7.95 ms
+17:26:56.464	127.0.0.1:53880	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.18 ms
+17:26:56.493	127.0.0.1:53880	admin	OK	Query executed in 28.33 ms.	28.65 ms
+17:27:48.946	127.0.0.1:53880	admin	REQUEST	OPEN f1	0.25 ms
+17:27:48.946	127.0.0.1:53880	admin	OK	Database 'f1' was opened in 0.02 ms.	0.14 ms
+17:27:48.946	127.0.0.1:53880	admin	REQUEST	DELETE rssf1.xml	0.11 ms
+17:27:48.948	127.0.0.1:53880	admin	OK	0 resource(s) deleted in 0.79 ms.	1.46 ms
+17:27:48.953	127.0.0.1:53880	admin	REQUEST	ADD TO RSS [...]	0.14 ms
+17:27:48.960	127.0.0.1:53880	admin	OK	Resource(s) added in 4.6 ms.	7.52 ms
+17:27:48.961	127.0.0.1:53880	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.17 ms
+17:27:48.983	127.0.0.1:53880	admin	OK	Query executed in 21.76 ms.	22.25 ms
+17:28:12.605	127.0.0.1:53880	admin	REQUEST	OPEN f1	0.24 ms
+17:28:12.606	127.0.0.1:53880	admin	OK	Database 'f1' was opened in 0.03 ms.	0.2 ms
+17:28:12.606	127.0.0.1:53880	admin	REQUEST	DELETE rssf1.xml	0.15 ms
+17:28:12.607	127.0.0.1:53880	admin	OK	0 resource(s) deleted in 0.78 ms.	1.46 ms
+17:28:12.612	127.0.0.1:53880	admin	REQUEST	ADD TO RSS [...]	0.13 ms
+17:28:12.620	127.0.0.1:53880	admin	OK	Resource(s) added in 5.11 ms.	8.58 ms
+17:28:12.621	127.0.0.1:53880	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.21 ms
+17:28:12.653	127.0.0.1:53880	admin	OK	Query executed in 32.2 ms.	32.46 ms
+17:28:28.825	127.0.0.1:53880	admin	REQUEST	OPEN f1	0.37 ms
+17:28:28.826	127.0.0.1:53880	admin	OK	Database 'f1' was opened in 0.02 ms.	0.24 ms
+17:28:28.826	127.0.0.1:53880	admin	REQUEST	DELETE rssf1.xml	0.37 ms
+17:28:28.828	127.0.0.1:53880	admin	OK	0 resource(s) deleted in 1.12 ms.	2.03 ms
+17:28:28.831	127.0.0.1:53880	admin	REQUEST	ADD TO RSS [...]	0.11 ms
+17:28:28.842	127.0.0.1:53880	admin	OK	Resource(s) added in 6.69 ms.	10.61 ms
+17:28:28.842	127.0.0.1:53880	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.23 ms
+17:28:28.875	127.0.0.1:53880	admin	OK	Query executed in 32.34 ms.	32.66 ms
+17:29:08.863	127.0.0.1:53880	admin	REQUEST	OPEN f1	0.22 ms
+17:29:08.863	127.0.0.1:53880	admin	OK	Database 'f1' was opened in 0.01 ms.	0.13 ms
+17:29:08.863	127.0.0.1:53880	admin	REQUEST	DELETE rssf1.xml	0.1 ms
+17:29:08.865	127.0.0.1:53880	admin	OK	0 resource(s) deleted in 0.75 ms.	1.35 ms
+17:29:08.868	127.0.0.1:53880	admin	REQUEST	ADD TO RSS [...]	0.06 ms
+17:29:08.877	127.0.0.1:53880	admin	OK	Resource(s) added in 5.63 ms.	9.36 ms
+17:29:08.877	127.0.0.1:53880	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.17 ms
+17:29:08.902	127.0.0.1:53880	admin	OK	Query executed in 24.1 ms.	24.33 ms
+17:34:17.112	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.34 ms
+17:34:17.115	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 2.19 ms.	2.52 ms
+17:34:17.115	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.17 ms
+17:34:17.117	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 1.07 ms.	1.7 ms
+17:34:17.120	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.08 ms
+17:34:17.129	127.0.0.1:54006	admin	OK	Resource(s) added in 4.79 ms.	8.86 ms
+17:34:17.130	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.19 ms
+17:34:17.152	127.0.0.1:54006	admin	OK	Query executed in 22.58 ms.	22.86 ms
+17:34:31.924	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.25 ms
+17:34:31.924	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.01 ms.	0.18 ms
+17:34:31.925	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.16 ms
+17:34:31.927	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 1.26 ms.	2.01 ms
+17:34:31.929	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.06 ms
+17:34:31.937	127.0.0.1:54006	admin	OK	Resource(s) added in 4.34 ms.	7.84 ms
+17:34:31.938	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.2 ms
+17:34:31.961	127.0.0.1:54006	admin	OK	Query executed in 22.69 ms.	22.93 ms
+17:34:45.555	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.4 ms
+17:34:45.555	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.02 ms.	0.21 ms
+17:34:45.556	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.34 ms
+17:34:45.557	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 0.86 ms.	1.61 ms
+17:34:45.560	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.08 ms
+17:34:45.568	127.0.0.1:54006	admin	OK	Resource(s) added in 5.12 ms.	7.92 ms
+17:34:45.569	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.24 ms
+17:34:45.592	127.0.0.1:54006	admin	OK	Query executed in 22.96 ms.	23.2 ms
+17:34:54.485	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.33 ms
+17:34:54.485	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.02 ms.	0.19 ms
+17:34:54.485	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.16 ms
+17:34:54.488	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 1.3 ms.	2.15 ms
+17:34:54.491	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.15 ms
+17:34:54.498	127.0.0.1:54006	admin	OK	Resource(s) added in 4.43 ms.	7.96 ms
+17:34:54.499	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.17 ms
+17:34:54.523	127.0.0.1:54006	admin	OK	Query executed in 23.84 ms.	24.09 ms
+17:35:00.196	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.26 ms
+17:35:00.197	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.01 ms.	0.16 ms
+17:35:00.197	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.12 ms
+17:35:00.199	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 0.91 ms.	1.82 ms
+17:35:00.202	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.09 ms
+17:35:00.213	127.0.0.1:54006	admin	OK	Resource(s) added in 6.42 ms.	10.78 ms
+17:35:00.213	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.24 ms
+17:35:00.241	127.0.0.1:54006	admin	OK	Query executed in 27.44 ms.	28.36 ms
+17:35:10.475	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.31 ms
+17:35:10.476	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.02 ms.	0.27 ms
+17:35:10.476	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.17 ms
+17:35:10.478	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 0.83 ms.	1.63 ms
+17:35:10.481	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.09 ms
+17:35:10.488	127.0.0.1:54006	admin	OK	Resource(s) added in 4.48 ms.	7.14 ms
+17:35:10.489	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.59 ms
+17:35:10.514	127.0.0.1:54006	admin	OK	Query executed in 24.97 ms.	25.27 ms
+17:35:18.892	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.24 ms
+17:35:18.892	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.01 ms.	0.13 ms
+17:35:18.893	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.1 ms
+17:35:18.894	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 0.7 ms.	1.34 ms
+17:35:18.897	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.12 ms
+17:35:18.905	127.0.0.1:54006	admin	OK	Resource(s) added in 4.71 ms.	7.9 ms
+17:35:18.906	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.15 ms
+17:35:18.931	127.0.0.1:54006	admin	OK	Query executed in 24.88 ms.	25.09 ms
+17:35:34.203	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.27 ms
+17:35:34.203	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.01 ms.	0.16 ms
+17:35:34.203	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.19 ms
+17:35:34.204	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 1.16 ms.	1.95 ms
+17:35:34.208	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.09 ms
+17:35:34.215	127.0.0.1:54006	admin	OK	Resource(s) added in 4.42 ms.	7.28 ms
+17:35:34.215	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.16 ms
+17:35:34.239	127.0.0.1:54006	admin	OK	Query executed in 24.02 ms.	24.25 ms
+17:35:51.806	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.36 ms
+17:35:51.806	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.01 ms.	0.17 ms
+17:35:51.806	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.16 ms
+17:35:51.808	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 1.26 ms.	2.12 ms
+17:35:51.811	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.15 ms
+17:35:51.819	127.0.0.1:54006	admin	OK	Resource(s) added in 4.38 ms.	7.69 ms
+17:35:51.819	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.16 ms
+17:35:51.844	127.0.0.1:54006	admin	OK	Query executed in 24.05 ms.	24.3 ms
+17:36:14.197	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.25 ms
+17:36:14.197	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.02 ms.	0.19 ms
+17:36:14.198	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.17 ms
+17:36:14.200	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 1.37 ms.	2.28 ms
+17:36:14.203	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.31 ms
+17:36:14.218	127.0.0.1:54006	admin	OK	Resource(s) added in 10.04 ms.	14.76 ms
+17:36:14.219	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.28 ms
+17:36:14.257	127.0.0.1:54006	admin	OK	Query executed in 38.12 ms.	38.45 ms
+17:36:52.704	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.28 ms
+17:36:52.704	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.02 ms.	0.15 ms
+17:36:52.704	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.08 ms
+17:36:52.706	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 0.78 ms.	1.43 ms
+17:36:52.709	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.1 ms
+17:36:52.718	127.0.0.1:54006	admin	OK	Resource(s) added in 5.42 ms.	9.34 ms
+17:36:52.719	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.16 ms
+17:36:52.751	127.0.0.1:54006	admin	OK	Query executed in 32.26 ms.	32.49 ms
+17:37:05.918	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.24 ms
+17:37:05.918	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.01 ms.	0.13 ms
+17:37:05.919	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.09 ms
+17:37:05.920	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 0.76 ms.	1.8 ms
+17:37:05.927	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.1 ms
+17:37:05.936	127.0.0.1:54006	admin	OK	Resource(s) added in 5.43 ms.	8.27 ms
+17:37:05.936	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.15 ms
+17:37:05.966	127.0.0.1:54006	admin	OK	Query executed in 29.99 ms.	30.25 ms
+17:37:15.447	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.25 ms
+17:37:15.447	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.01 ms.	0.13 ms
+17:37:15.448	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.23 ms
+17:37:15.449	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 1.05 ms.	1.79 ms
+17:37:15.452	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.07 ms
+17:37:15.462	127.0.0.1:54006	admin	OK	Resource(s) added in 6.76 ms.	9.93 ms
+17:37:15.463	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.15 ms
+17:37:15.489	127.0.0.1:54006	admin	OK	Query executed in 25.5 ms.	26.01 ms
+17:37:56.132	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.46 ms
+17:37:56.133	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.04 ms.	0.31 ms
+17:37:56.133	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.34 ms
+17:37:56.135	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 1.17 ms.	2.12 ms
+17:37:56.138	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.06 ms
+17:37:56.148	127.0.0.1:54006	admin	OK	Resource(s) added in 6.01 ms.	9.11 ms
+17:37:56.148	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.18 ms
+17:37:56.178	127.0.0.1:54006	admin	OK	Query executed in 29.78 ms.	30.02 ms
+17:38:30.580	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.19 ms
+17:38:30.580	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.01 ms.	0.12 ms
+17:38:30.581	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.09 ms
+17:38:30.582	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 0.73 ms.	1.35 ms
+17:38:30.585	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.09 ms
+17:38:30.594	127.0.0.1:54006	admin	OK	Resource(s) added in 5.79 ms.	9.35 ms
+17:38:30.595	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.17 ms
+17:38:30.625	127.0.0.1:54006	admin	OK	Query executed in 29.71 ms.	29.93 ms
+17:38:39.277	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.26 ms
+17:38:39.278	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.02 ms.	0.17 ms
+17:38:39.278	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.14 ms
+17:38:39.280	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 0.87 ms.	1.79 ms
+17:38:39.283	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.07 ms
+17:38:39.290	127.0.0.1:54006	admin	OK	Resource(s) added in 4.4 ms.	7.85 ms
+17:38:39.291	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.18 ms
+17:38:39.318	127.0.0.1:54006	admin	OK	Query executed in 27.09 ms.	27.31 ms
+17:38:43.401	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.34 ms
+17:38:43.402	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.01 ms.	0.23 ms
+17:38:43.402	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.22 ms
+17:38:43.404	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 1.19 ms.	1.95 ms
+17:38:43.407	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.07 ms
+17:38:43.416	127.0.0.1:54006	admin	OK	Resource(s) added in 4.71 ms.	8.4 ms
+17:38:43.416	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.18 ms
+17:38:43.447	127.0.0.1:54006	admin	OK	Query executed in 30.94 ms.	31.19 ms
+17:38:46.838	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.35 ms
+17:38:46.838	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.01 ms.	0.17 ms
+17:38:46.838	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.15 ms
+17:38:46.840	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 1.12 ms.	1.77 ms
+17:38:46.844	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.1 ms
+17:38:46.851	127.0.0.1:54006	admin	OK	Resource(s) added in 4.41 ms.	7.25 ms
+17:38:46.851	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.16 ms
+17:38:46.880	127.0.0.1:54006	admin	OK	Query executed in 28.72 ms.	28.94 ms
+17:39:01.775	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.28 ms
+17:39:01.775	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.02 ms.	0.21 ms
+17:39:01.775	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.21 ms
+17:39:01.777	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 0.96 ms.	1.66 ms
+17:39:01.780	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.05 ms
+17:39:01.788	127.0.0.1:54006	admin	OK	Resource(s) added in 4.56 ms.	8.05 ms
+17:39:01.788	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.16 ms
+17:39:01.818	127.0.0.1:54006	admin	OK	Query executed in 29.71 ms.	29.91 ms
+17:40:00.415	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.36 ms
+17:40:00.415	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.02 ms.	0.26 ms
+17:40:00.416	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.19 ms
+17:40:00.418	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 0.98 ms.	1.72 ms
+17:40:00.421	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.06 ms
+17:40:00.429	127.0.0.1:54006	admin	OK	Resource(s) added in 5.27 ms.	8.24 ms
+17:40:00.429	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.17 ms
+17:40:00.460	127.0.0.1:54006	admin	OK	Query executed in 30.18 ms.	30.41 ms
+17:40:21.284	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.21 ms
+17:40:21.284	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.01 ms.	0.11 ms
+17:40:21.284	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.11 ms
+17:40:21.285	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 0.72 ms.	1.31 ms
+17:40:21.288	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.07 ms
+17:40:21.297	127.0.0.1:54006	admin	OK	Resource(s) added in 5.08 ms.	8.49 ms
+17:40:21.297	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.19 ms
+17:40:21.331	127.0.0.1:54006	admin	OK	Query executed in 33.76 ms.	34.13 ms
+17:40:34.409	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.28 ms
+17:40:34.409	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.01 ms.	0.14 ms
+17:40:34.409	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.11 ms
+17:40:34.411	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 0.9 ms.	1.82 ms
+17:40:34.414	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.11 ms
+17:40:34.423	127.0.0.1:54006	admin	OK	Resource(s) added in 4.42 ms.	8.96 ms
+17:40:34.424	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.31 ms
+17:40:34.460	127.0.0.1:54006	admin	OK	Query executed in 35.34 ms.	35.79 ms
+17:41:02.299	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.24 ms
+17:41:02.299	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.01 ms.	0.13 ms
+17:41:02.299	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.1 ms
+17:41:02.301	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 0.81 ms.	1.45 ms
+17:41:02.304	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.09 ms
+17:41:02.312	127.0.0.1:54006	admin	OK	Resource(s) added in 4.33 ms.	8.11 ms
+17:41:02.313	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.46 ms
+17:41:02.346	127.0.0.1:54006	admin	OK	Query executed in 32.83 ms.	33.17 ms
+17:45:00.156	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.41 ms
+17:45:00.156	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.02 ms.	0.19 ms
+17:45:00.156	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.12 ms
+17:45:00.158	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 0.9 ms.	1.54 ms
+17:45:00.161	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.13 ms
+17:45:00.170	127.0.0.1:54006	admin	OK	Resource(s) added in 5.47 ms.	8.68 ms
+17:45:00.170	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.24 ms
+17:45:00.206	127.0.0.1:54006	admin	OK	Query executed in 35.28 ms.	35.52 ms
+17:45:12.729	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.3 ms
+17:45:12.729	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.01 ms.	0.17 ms
+17:45:12.729	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.1 ms
+17:45:12.732	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 1.29 ms.	2.44 ms
+17:45:12.735	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.08 ms
+17:45:12.743	127.0.0.1:54006	admin	OK	Resource(s) added in 5.33 ms.	8.52 ms
+17:45:12.744	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.25 ms
+17:45:12.783	127.0.0.1:54006	admin	OK	Query executed in 39.15 ms.	39.43 ms
+17:46:01.437	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.2 ms
+17:46:01.437	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.01 ms.	0.11 ms
+17:46:01.437	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.08 ms
+17:46:01.438	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 0.76 ms.	1.37 ms
+17:46:01.441	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.05 ms
+17:46:01.450	127.0.0.1:54006	admin	OK	Resource(s) added in 5.03 ms.	8.69 ms
+17:46:01.450	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.27 ms
+17:46:01.488	127.0.0.1:54006	admin	OK	Query executed in 37.17 ms.	37.41 ms
+17:46:21.774	127.0.0.1:54006	admin	REQUEST	OPEN f1	0.21 ms
+17:46:21.775	127.0.0.1:54006	admin	OK	Database 'f1' was opened in 0.01 ms.	0.15 ms
+17:46:21.775	127.0.0.1:54006	admin	REQUEST	DELETE rssf1.xml	0.12 ms
+17:46:21.777	127.0.0.1:54006	admin	OK	0 resource(s) deleted in 1.04 ms.	1.98 ms
+17:46:21.782	127.0.0.1:54006	admin	REQUEST	ADD TO RSS [...]	0.08 ms
+17:46:21.789	127.0.0.1:54006	admin	OK	Resource(s) added in 4.97 ms.	8.07 ms
+17:46:21.790	127.0.0.1:54006	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.19 ms
+17:46:21.834	127.0.0.1:54006	admin	OK	Query executed in 43.89 ms.	44.11 ms
+17:57:10.879	127.0.0.1:54305	admin	REQUEST	OPEN f1	0.31 ms
+17:57:10.880	127.0.0.1:54305	admin	OK	Database 'f1' was opened in 2.03 ms.	2.19 ms
+17:57:10.880	127.0.0.1:54305	admin	REQUEST	DELETE rssf1.xml	0.12 ms
+17:57:10.882	127.0.0.1:54305	admin	OK	0 resource(s) deleted in 1.07 ms.	1.71 ms
+17:57:31.561	127.0.0.1:54320	admin	REQUEST	OPEN f1	0.21 ms
+17:57:31.563	127.0.0.1:54320	admin	OK	Database 'f1' was opened in 1.71 ms.	1.86 ms
+17:57:31.563	127.0.0.1:54320	admin	REQUEST	DELETE rssf1.xml	0.11 ms
+17:57:31.565	127.0.0.1:54320	admin	OK	0 resource(s) deleted in 0.97 ms.	1.6 ms
+17:57:39.740	127.0.0.1:54320	admin	REQUEST	ADD TO RSS [...]	0.09 ms
+17:57:39.748	127.0.0.1:54320	admin	OK	Resource(s) added in 4.55 ms.	8.15 ms
+17:57:39.749	127.0.0.1:54320	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.16 ms
+17:57:39.785	127.0.0.1:54320	admin	OK	Query executed in 35.97 ms.	36.27 ms
+17:58:47.236	127.0.0.1:54329	admin	REQUEST	OPEN f1	0.25 ms
+17:58:47.238	127.0.0.1:54329	admin	OK	Database 'f1' was opened in 1.77 ms.	1.93 ms
+17:58:47.239	127.0.0.1:54329	admin	REQUEST	DELETE rssf1.xml	0.13 ms
+17:58:47.240	127.0.0.1:54329	admin	OK	0 resource(s) deleted in 0.95 ms.	1.6 ms
+17:58:58.942	127.0.0.1:54329	admin	REQUEST	ADD TO RSS [...]	0.15 ms
+17:58:58.950	127.0.0.1:54329	admin	OK	Resource(s) added in 4.63 ms.	8.07 ms
+17:58:58.951	127.0.0.1:54329	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.16 ms
+17:58:58.988	127.0.0.1:54329	admin	OK	Query executed in 37.46 ms.	37.67 ms
+17:59:34.627	127.0.0.1:54329	admin	REQUEST	XQUERY for $p in collection('f1')//DriverTable where $p/@season=2020 return $p	0.41 ms
+17:59:34.636	127.0.0.1:54329	admin	OK	Query executed in 8.69 ms.	9.06 ms
+17:59:36.649	127.0.0.1:54329	admin	REQUEST	OPEN f1	0.35 ms
+17:59:36.650	127.0.0.1:54329	admin	OK	Database 'f1' was opened in 0.02 ms.	0.23 ms
+17:59:36.650	127.0.0.1:54329	admin	REQUEST	DELETE rssf1.xml	0.1 ms
+17:59:36.652	127.0.0.1:54329	admin	OK	0 resource(s) deleted in 0.75 ms.	1.99 ms
+17:59:40.331	127.0.0.1:54329	admin	REQUEST	ADD TO RSS [...]	0.09 ms
+17:59:40.338	127.0.0.1:54329	admin	OK	Resource(s) added in 4.74 ms.	7.53 ms
+17:59:40.338	127.0.0.1:54329	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.14 ms
+17:59:40.378	127.0.0.1:54329	admin	OK	Query executed in 38.85 ms.	39.11 ms
+18:01:25.518	127.0.0.1:54329	admin	REQUEST	OPEN f1	0.26 ms
+18:01:25.518	127.0.0.1:54329	admin	OK	Database 'f1' was opened in 0.01 ms.	0.12 ms
+18:01:25.518	127.0.0.1:54329	admin	REQUEST	DELETE rssf1.xml	0.09 ms
+18:01:25.520	127.0.0.1:54329	admin	OK	0 resource(s) deleted in 0.78 ms.	1.38 ms
+18:01:28.324	127.0.0.1:54329	admin	REQUEST	ADD TO RSS [...]	0.11 ms
+18:01:28.333	127.0.0.1:54329	admin	OK	Resource(s) added in 4.81 ms.	8.58 ms
+18:01:28.333	127.0.0.1:54329	admin	REQUEST	XQUERY <root>{ for $i in collection('f1')//item[position()<6] return <elem> {$i/title} {$i/pubDate} {$i/author} {$i/link} {$i/description} </elem>} </root>	0.17 ms
+18:01:28.370	127.0.0.1:54329	admin	OK	Query executed in 36.95 ms.	37.17 ms
+18:40:53.931	SERVER	admin	OK	Server was stopped (port: 1984).

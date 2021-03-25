@@ -1,0 +1,26 @@
+17:36:40.039	SERVER	admin	OK	Server was started (port: 1984).
+17:37:10.708	127.0.0.1:59026	admin	REQUEST	OPEN formula1	51.29 ms
+17:37:10.891	127.0.0.1:59026	admin	OK	Database 'formula1' was opened in 175.18 ms.	182.78 ms
+17:37:10.912	127.0.0.1:59026	admin	REQUEST	XQUERY <root>{ for $a in collection('formula1')//Constructors return <elem>{$a}</elem>}</root>	1.62 ms
+17:37:11.367	127.0.0.1:59026	admin	OK	Query executed in 451.42 ms.	456.07 ms
+17:37:11.482	127.0.0.1:59026	admin	REQUEST	OPEN formula1	1.01 ms
+17:37:11.483	127.0.0.1:59026	admin	OK	Database 'formula1' was opened in 0.05 ms.	0.66 ms
+17:37:11.484	127.0.0.1:59026	admin	REQUEST	XQUERY <root>{ for $a in collection('formula1')//Constructors return <elem>{$a}</elem>}</root>	0.47 ms
+17:37:11.486	127.0.0.1:59026	admin	OK	Query executed in 1.29 ms.	2.01 ms
+17:38:52.368	127.0.0.1:59089	admin	REQUEST	OPEN formula1	0.45 ms
+17:38:52.370	127.0.0.1:59089	admin	OK	Database 'formula1' was opened in 1.96 ms.	2.25 ms
+17:38:52.371	127.0.0.1:59089	admin	REQUEST	XQUERY <root>{ for $a in collection('formula1') return <elem>{$a}</elem>}</root>	0.95 ms
+17:38:52.428	127.0.0.1:59089	admin	OK	Query executed in 56.09 ms.	56.88 ms
+17:58:47.137	127.0.0.1:59281	admin	REQUEST	OPEN formula1	0.69 ms
+17:58:47.139	127.0.0.1:59281	admin	OK	Database 'formula1' was opened in 2.12 ms.	2.39 ms
+17:58:48.067	127.0.0.1:59281	admin	REQUEST	ADD TO Corridas2018 [...]	2.57 ms
+17:58:48.214	127.0.0.1:59281	admin	OK	Resource(s) added in 141.64 ms.	146.94 ms
+17:58:48.260	127.0.0.1:59281	admin	REQUEST	OPEN formula1	0.54 ms
+17:58:48.260	127.0.0.1:59281	admin	OK	Database 'formula1' was opened in 0.02 ms.	0.24 ms
+17:58:48.263	127.0.0.1:59281	admin	REQUEST	ADD TO Corridas2018 [...]	0.22 ms
+17:58:48.296	127.0.0.1:59281	admin	OK	Resource(s) added in 27.46 ms.	33.21 ms
+18:00:28.083	127.0.0.1:59281	admin	REQUEST	OPEN formula1	0.55 ms
+18:00:28.084	127.0.0.1:59281	admin	OK	Database 'formula1' was opened in 0.02 ms.	0.31 ms
+18:00:28.085	127.0.0.1:59281	admin	REQUEST	ADD TO Corridas2018 [...]	0.07 ms
+18:00:28.098	127.0.0.1:59281	admin	OK	Resource(s) added in 10.33 ms.	12.88 ms
+18:04:54.611	SERVER	admin	OK	Server was stopped (port: 1984).
